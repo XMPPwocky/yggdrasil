@@ -3,7 +3,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
 
-    mimir-home.url = "path:/home/mimir/dotfiles/mimir-home";
+    mimir-home.url = "github:XMPPwocky/mimir-home";
   };
 
   outputs = { self, home-manager, nixpkgs, mimir-home }:
