@@ -57,6 +57,8 @@
     enable = true;
     userName = "Mimir";
     userEmail = "mimir@xmppwocky.net";
-    init.defaultBranch = "main";
+    extraConfig = {
+      init.defaultBranch = "main";
+    };
   };
 }

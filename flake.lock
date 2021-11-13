@@ -23,17 +23,13 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1636838105,
-        "narHash": "sha256-slBcVfkSwxcGanQFF78DfAJjKZSzXHIcyhesU2UWLXE=",
-        "owner": "XMPPwocky",
-        "repo": "mimir-home",
-        "rev": "9ba2084d24de6ad6888754e0d1471bb35e8a4300",
-        "type": "github"
+        "narHash": "sha256-UBrTPhI8Q+qWUNlvHX+nSHnVVDH3dqmu0HevD84Xm0I=",
+        "path": "./mimir-home",
+        "type": "path"
       },
       "original": {
-        "owner": "XMPPwocky",
-        "repo": "mimir-home",
-        "type": "github"
+        "path": "./mimir-home",
+        "type": "path"
       }
     },
     "nixpkgs": {
