@@ -1,0 +1,89 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1636520380,
+        "narHash": "sha256-gBiQ8+AQG6Dia34rqJDuqs6VFe/J1SjIhOZBeTXCKQI=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "1e5c8e9bff00d0844bc3d25d1a98eab5633e600b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "mimir-home": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "narHash": "sha256-V9p/kcG9+v00B288h5EhBws0CEnU1UtQ8sevwEz2WFg=",
+        "path": "/home/mimir/dotfiles/mimir-home",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/mimir/dotfiles/mimir-home",
+        "type": "path"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1636692106,
+        "narHash": "sha256-wznNEMpwxGIg+UowwvoBDLyKhE5pnzR9DWxBeGP0F4c=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a1b8eb4a30e32553f47ddfb185816f587ba08bbc",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1636834888,
+        "narHash": "sha256-COyVq664nhS/gLyY3nepEnuGGWroWUjAMI44vxfyt3o=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "95382df163ab7418e0941f7f1422a36cdda13791",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1636443933,
+        "narHash": "sha256-ABJmNQdzFWWxaqkb0C0kd9f/MmUtmnQrxm9sZPhgm/s=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "9e70e9f732fbb15872cb4ea11bd43c14328a0b69",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "mimir-home": "mimir-home",
+        "nixpkgs": "nixpkgs_3"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
