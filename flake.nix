@@ -9,18 +9,18 @@
   outputs = { self, home-manager, nixpkgs, mimir-home }:
     let
       modules = {
-        hardening = modules/hardening.nix;
+        hardening = import modules/hardening.nix;
 
-        enable-flakes = modules/enable-flakes.nix;
+        enable-flakes = import modules/enable-flakes.nix;
 
-        basic-users = modules/basic-users.nix;
+        basic-users = import modules/basic-users.nix;
 
-        desktop = modules/desktop.nix;
-        audio = modules/audio.nix;
-        tailscale = modules/tailscale.nix;
+        desktop = import modules/desktop.nix;
+        audio = import modules/audio.nix;
+        tailscale = import modules/tailscale.nix;
 
-        power-utils = modules/power-utils.nix;
-        ps5-controller-udev = modules/ps5-controller-udev.nix;
+        power-utils = import modules/power-utils.nix;
+        ps5-controller-udev = import modules/ps5-controller-udev.nix;
       };
     in
     {
