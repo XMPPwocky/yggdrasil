@@ -12,6 +12,8 @@
     apps/chromium.nix
     apps/firefox.nix
 
+    apps/signal-desktop.nix
+
     ./cfg-defaults.nix
   ];
 
