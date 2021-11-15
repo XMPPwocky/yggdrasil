@@ -1,3 +1,3 @@
 {
-  home.sessionVariables.EDITOR = "neovim";
+  home.sessionVariables.EDITOR = "nvim";
 }
