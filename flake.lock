@@ -23,7 +23,7 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "narHash": "sha256-nIPDZf80sN80ASb+hhSGCj+VjNTiG0d0WcOkDDfYbfU=",
+        "narHash": "sha256-ZVod0tkaTXjvkpRaIM06cQEpVmylmT3XApot51LzbCU=",
         "path": "./mimir-home",
         "type": "path"
       },
