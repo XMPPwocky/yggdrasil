@@ -2,11 +2,9 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
-
-    mimir-home.url = "path:./mimir-home";
   };
 
-  outputs = { self, home-manager, nixpkgs, mimir-home }:
+  outputs = { self, home-manager, nixpkgs }:
     let
       modules = {
         hardening = import modules/hardening.nix;
@@ -35,7 +33,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.mimir = mimir-home.outputs.hmCfg;
+            home-manager.users.mimir = import mimir-home/home.nix;
           }
 
           modules.enable-flakes
