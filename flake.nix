@@ -14,6 +14,7 @@
         basic-users = import modules/basic-users.nix;
 
         desktop = import modules/desktop.nix;
+        systemd-resolved = import modules/systemd-resolved.nix;
         audio = import modules/audio.nix;
         tailscale = import modules/tailscale.nix;
 
@@ -43,6 +44,7 @@
 
           modules.desktop
 	  modules.audio
+    modules.systemd-resolved
 	  modules.tailscale
 
 	  modules.power-utils
