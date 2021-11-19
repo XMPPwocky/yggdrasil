@@ -54,7 +54,7 @@ customPackages:
     bitwig-studio4
     mixxx
 
-    (customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; })
+    (customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; extraPythonPackages = (p: p.colorama); })
   ]);
 
   programs.bash.enable = true;
