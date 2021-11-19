@@ -2,9 +2,11 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
+
+    binaryninja-nix.url = "github:XMPPwocky/binaryninja-nix";
   };
 
-  outputs = { self, home-manager, nixpkgs }:
+  outputs = { self, home-manager, nixpkgs, binaryninja-nix }:
     let
       modules = {
         hardening = import modules/hardening.nix;
@@ -21,6 +23,10 @@
         power-utils = import modules/power-utils.nix;
         ps5-controller-udev = import modules/ps5-controller-udev.nix;
       };
+
+      customPackages = {
+        binaryninja = binaryninja-nix;
+      };
     in
     {
       nixosModules = modules;
@@ -34,7 +40,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.mimir = import mimir-home/home.nix;
+            home-manager.users.mimir = (import mimir-home/home.nix) customPackages;
           }
 
           modules.enable-flakes
