@@ -38,7 +38,7 @@
 
   hardware.opengl = {
     enable = true;
-    extraPackages = with pkgs; [ pkgs.vaapiIntel pkgs.vaapiVdpau libvdpau-va-gl ];
+    extraPackages = with pkgs; [ intel-media-driver pkgs.vaapiIntel pkgs.vaapiVdpau libvdpau-va-gl ];
     driSupport32Bit = true;
   };
   nixpkgs.config.packageOverrides = pkgs: {
