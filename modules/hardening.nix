@@ -78,7 +78,7 @@ with lib;
   boot.kernel.sysctl."kernel.kptr_restrict" = mkOverride 500 2;
 
   # Disable bpf() JIT (to eliminate spray attacks)
-  boot.kernel.sysctl."net.core.bpf_jit_enable" = false;
+  #boot.kernel.sysctl."net.core.bpf_jit_enable" = false;
 
   # Disable ftrace debugging
   boot.kernel.sysctl."kernel.ftrace_enabled" = false;
