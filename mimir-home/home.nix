@@ -3,15 +3,7 @@ customPackages:
 
 let bitwig =
   pkgs.bitwig-studio4.override {
-    alsa-lib = pkgs.alsa-lib.overrideAttrs (old: {
-      nativeBuildInputs = [ pkgs.autoreconfHook ];
-      src = pkgs.fetchFromGitHub {
-        owner = "alsa-project";
-        repo = "alsa-lib";
-        rev = "7ffe3d41626279e43fddfec8a02f520c3b79190e";
-        hash = "sha256-PMVk8Ozv0+R5DTIpQV331Op5Z3Lfpw6j3ziHwj3Tcj4=";
-      };
-    });
+    alsa-lib = pkgs.alsa-lib-git;
   };
 in
 {

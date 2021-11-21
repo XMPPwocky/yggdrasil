@@ -18,6 +18,7 @@
         desktop = import modules/desktop.nix;
         systemd-resolved = import modules/systemd-resolved.nix;
         audio = import modules/audio.nix;
+        alsa-lib-git = import modules/alsa-lib-git.nix;
         tailscale = import modules/tailscale.nix;
 
         power-utils = import modules/power-utils.nix;
@@ -49,12 +50,15 @@
           modules.basic-users
 
           modules.desktop
-	  modules.audio
-    modules.systemd-resolved
-	  modules.tailscale
 
-	  modules.power-utils
-	  modules.ps5-controller-udev
+          modules.audio
+          modules.alsa-lib-git
+
+          modules.systemd-resolved
+          modules.tailscale
+
+          modules.power-utils
+          modules.ps5-controller-udev
         ];
       };
     };
