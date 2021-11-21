@@ -1,13 +1,21 @@
 { pkgs, ... }:
 {
+  environment.systemPackages = with pkgs; [
+    alsa-utils
+    qjackctl
+  ];
+
   security.pam.loginLimits = [
     { domain = "@audio"; item = "memlock"; type = "*"; value = "unlimited"; }
     { domain = "@audio"; item = "rtprio"; type = "*"; value = "99"; }
     { domain = "@audio"; item = "nofile"; type = "soft"; value = "99999"; }
     { domain = "@audio"; item = "nofile"; type = "hard"; value = "99999"; }
   ];
-  hardware.pulseaudio.enable = false;
+
   security.rtkit.enable = true;
+
+  hardware.pulseaudio.enable = false;
+
   services.pipewire = {
     enable = true;
     alsa.enable = true;
@@ -19,4 +27,5 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+
 }

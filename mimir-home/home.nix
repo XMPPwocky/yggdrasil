@@ -1,6 +1,19 @@
 customPackages:
 { config, pkgs, ... }:
 
+let bitwig =
+  pkgs.bitwig-studio4.override {
+    alsa-lib = pkgs.alsa-lib.overrideAttrs (old: {
+      nativeBuildInputs = [ pkgs.autoreconfHook ];
+      src = pkgs.fetchFromGitHub {
+        owner = "alsa-project";
+        repo = "alsa-lib";
+        rev = "7ffe3d41626279e43fddfec8a02f520c3b79190e";
+        hash = "sha256-PMVk8Ozv0+R5DTIpQV331Op5Z3Lfpw6j3ziHwj3Tcj4=";
+      };
+    });
+  };
+in
 {
   imports = [
     apps/alacritty.nix
@@ -51,7 +64,7 @@ customPackages:
 
     pinentry-qt
 
-    bitwig-studio4
+    bitwig
     mixxx
 
     (customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; extraPythonPackages = (p: [ p.colorama p.scapy ]); })
