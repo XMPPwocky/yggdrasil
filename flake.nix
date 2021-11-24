@@ -22,7 +22,9 @@
         tailscale = import modules/tailscale.nix;
 
         power-utils = import modules/power-utils.nix;
+
         ps5-controller-udev = import modules/ps5-controller-udev.nix;
+        steam = import modules/steam.nix;
       };
 
       customPackages = {
@@ -58,7 +60,9 @@
           modules.tailscale
 
           modules.power-utils
+
           modules.ps5-controller-udev
+          modules.steam
         ];
       };
     };
