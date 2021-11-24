@@ -81,7 +81,5 @@
   };
 
   fileSystems."/".options = [ "relatime" "nodiratime" "discard=async" "compress=zstd" ];
-
-  hardware.steam-hardware.enable = true;
 }
 
