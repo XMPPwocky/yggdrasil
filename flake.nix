@@ -15,7 +15,9 @@
 
         basic-users = import modules/basic-users.nix;
 
-        desktop = import modules/desktop.nix;
+        laptop = import modules/laptop.nix;
+
+        gui = import modules/gui.nix;
         systemd-resolved = import modules/systemd-resolved.nix;
         audio = import modules/audio.nix;
         alsa-lib-git = import modules/alsa-lib-git.nix;
@@ -51,7 +53,9 @@
           modules.hardening
           modules.basic-users
 
-          modules.desktop
+          modules.laptop
+
+          modules.gui
 
           modules.audio
           modules.alsa-lib-git
