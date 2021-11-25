@@ -45,8 +45,6 @@
     vaapiIntel = pkgs.vaapiIntel.override { enableHybridCodec = true; };
   };
 
-  services.cpupower-gui.enable = true;
-  services.thermald.enable = true;
   services.fprintd.enable = false;
 
   services.pcscd.enable = true;
@@ -69,6 +67,6 @@
     "options iwlwifi power_save=1"
   ];
 
-  fileSystems."/".options = [ "relatime" "nodiratime" "discard=async" "compress=zstd" ];
+  fileSystems."/".options = [ "relatime" "nodiratime" "discard=async" "compress=zstd:1" ];
 }
 
