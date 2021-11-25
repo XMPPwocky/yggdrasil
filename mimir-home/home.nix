@@ -8,8 +8,11 @@ let bitwig =
 in
 {
   imports = [
+    apps/nushell.nix
+
     apps/alacritty.nix
     apps/tmux.nix
+
     apps/neovim/default.nix
 
     apps/resilio.nix
