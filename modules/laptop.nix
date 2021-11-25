@@ -7,6 +7,11 @@
   # using thermal profiles from f/w
   services.thermald.enable = true;
 
+  # Use power-efficient work queues.
+  boot.kernelParams = [
+    "workqueue.power_efficient=true"
+  ];
+
   # TLP config.
   services.tlp = {
     enable = true;
