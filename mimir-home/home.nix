@@ -1,11 +1,6 @@
 customPackages:
 { config, pkgs, ... }:
 
-let bitwig =
-  pkgs.bitwig-studio4.override {
-    alsa-lib = pkgs.alsa-lib-git;
-  };
-in
 {
   imports = [
     apps/nushell.nix
@@ -22,6 +17,8 @@ in
     apps/firefox.nix
 
     apps/signal-desktop.nix
+
+    apps/bitwig.nix
 
     ./cfg-defaults.nix
   ];
@@ -59,7 +56,6 @@ in
 
     pinentry-qt
 
-    bitwig
     mixxx
 
     (customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; extraPythonPackages = (p: [ p.colorama p.scapy ]); })
