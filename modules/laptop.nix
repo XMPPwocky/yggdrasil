@@ -9,7 +9,7 @@
 
   # Use power-efficient work queues.
   boot.kernelParams = [
-    "workqueue.power_efficient=true"
+    "workqueue.power_efficient=1"
   ];
 
   # TLP config.
