@@ -1,8 +1,9 @@
 {
   nix.registry.nixpkgs.from = { id = "nixpkgs"; type = "indirect"; };
   nix.registry.nixpkgs.to = {
-    id = "nixpkgs";
+    type = "github";
+    owner = "NixOS";
+    repo = "nixpkgs";
     ref = "nixos-unstable";
-    type = "indirect";
   };
 }
