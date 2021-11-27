@@ -1,5 +1,8 @@
 {
   inputs = {
+    # this seems to be required for .follows to work?
+    nixpkgs.url = "nixpkgs";
+
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
