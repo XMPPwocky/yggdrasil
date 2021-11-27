@@ -12,10 +12,10 @@
   outputs = { self, home-manager, nixpkgs, binaryninja-nix }:
     let
       modules = {
-        hardening = import modules/hardening.nix;
-
         enable-flakes = import modules/enable-flakes.nix;
-        nix-registry = import modules/nix-registry.nix;
+        nixpkgs-registry = import modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
+
+        hardening = import modules/hardening.nix;
 
         basic-users = import modules/basic-users.nix;
 
@@ -52,7 +52,7 @@
             home-manager.users.mimir = (import mimir-home/home.nix) customPackages;
           }
 
-          modules.nix-registry
+          modules.nixpkgs-registry
           modules.enable-flakes
 
           modules.hardening
