@@ -1,7 +1,5 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
@@ -14,6 +12,7 @@
         hardening = import modules/hardening.nix;
 
         enable-flakes = import modules/enable-flakes.nix;
+        nix-registry = import modules/nix-registry.nix;
 
         basic-users = import modules/basic-users.nix;
 
@@ -50,6 +49,7 @@
             home-manager.users.mimir = (import mimir-home/home.nix) customPackages;
           }
 
+          modules.nix-registry
           modules.enable-flakes
 
           modules.hardening
