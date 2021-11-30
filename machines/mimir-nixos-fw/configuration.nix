@@ -52,6 +52,9 @@
   services.fwupd.enable = true;
   services.ratbagd.enable = true;
 
+  services.gvfs.enable = true;
+  services.udev.packages = [ pkgs.android-udev-rules ];
+
   security.sudo.wheelNeedsPassword = false;
 
   hardware.cpu.intel.updateMicrocode = true;
