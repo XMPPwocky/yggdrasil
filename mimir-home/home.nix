@@ -1,5 +1,5 @@
 customPackages:
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   imports = [
@@ -20,6 +20,8 @@ customPackages:
 
     apps/bitwig.nix
 
+    apps/calibre.nix
+
     ./cfg-defaults.nix
   ];
 
@@ -33,6 +35,10 @@ customPackages:
   nixpkgs.config = {
     allowUnfree = true;
   };
+
+  # workaround for weird issue that seems related to
+  # https://github.com/nix-community/home-manager/issues/1118
+  fonts.fontconfig.enable = lib.mkForce false;
 
   home.packages = (with pkgs; [
     fd
