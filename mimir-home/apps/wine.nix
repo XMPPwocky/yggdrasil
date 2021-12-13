@@ -2,6 +2,6 @@
 
 {
   home.packages = [
-    wineWowPackages.stable
+    pkgs.wineWowPackages.stable
   ];
 }
