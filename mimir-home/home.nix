@@ -22,7 +22,7 @@ customPackages:
 
     apps/calibre.nix
 
-    #apps/wine.nix
+    apps/zotero.nix
 
     ./cfg-defaults.nix
   ];
