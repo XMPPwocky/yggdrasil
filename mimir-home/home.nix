@@ -10,6 +10,8 @@ customPackages:
 
     apps/neovim/default.nix
 
+    apps/nixops.nix
+
     apps/resilio.nix
     apps/duplicacy-web.nix
 
