@@ -11,6 +11,9 @@
       coc-nvim
       coc-python
       coc-json
+      nvim-completion-manager
+      nvim-cm-racer
+      rust-vim
     ];
 
     extraPackages = with pkgs; [
