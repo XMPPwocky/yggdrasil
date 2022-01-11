@@ -13,3 +13,5 @@ colorscheme evening
 set expandtab
 set tabstop=2
 set shiftwidth=2
+
+au! BufRead,BufNewFile *.rs compiler cargo
