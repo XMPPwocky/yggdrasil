@@ -31,6 +31,8 @@
 
         ps5-controller-udev = import modules/ps5-controller-udev.nix;
         steam = import modules/steam.nix;
+
+        bluetooth = import modules/bluetooth.nix;
       };
 
       customPackages = {
@@ -72,6 +74,8 @@
 
           modules.ps5-controller-udev
           modules.steam
+
+          modules.bluetooth
         ];
       };
     };
