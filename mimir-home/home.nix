@@ -62,8 +62,6 @@ customPackages:
     plasma-pa
     ark
 
-    yubikey-agent
-
     pinentry-qt
 
     mixxx

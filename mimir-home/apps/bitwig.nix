@@ -19,7 +19,7 @@ let
 in
 {
   home.packages = [ bitwig
-  (pkgs.yabridge.override { wine = wine; })
-  (pkgs.yabridgectl.override { wine = wine; })
+  #(pkgs.yabridge.override { wine = wine; })
+  #(pkgs.yabridgectl.override { wine = wine; })
   ];
 }
