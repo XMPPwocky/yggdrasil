@@ -26,6 +26,8 @@ customPackages:
 
     apps/zotero.nix
 
+    apps/vlc.nix
+
     ./cfg-defaults.nix
   ];
 
