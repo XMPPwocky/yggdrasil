@@ -37,8 +37,11 @@
           PCIE_ASPM_ON_AC = "performance";
           PCIE_ASPM_ON_BAT = "powersupersave";
         };
+        usb = {
+          USB_ALLOWLIST="1050:0407";
+        };
       in
-      cpufreq // epp // pcie_aspm
+      cpufreq // epp // pcie_aspm // usb
     );
   };
 }
