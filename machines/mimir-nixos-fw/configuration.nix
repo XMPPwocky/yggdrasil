@@ -71,6 +71,4 @@
   ];
 
   fileSystems."/".options = [ "relatime" "nodiratime" "discard=async" "compress=zstd:1" ];
-
-  services.gnome.gnome-keyring.enable = true;
 }

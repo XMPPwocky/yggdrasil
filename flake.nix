@@ -33,6 +33,8 @@
         steam = import modules/steam.nix;
 
         bluetooth = import modules/bluetooth.nix;
+
+        gnome-keyring = import modules/gnome-keyring.nix;
       };
 
       customPackages = {
@@ -76,6 +78,8 @@
           modules.steam
 
           modules.bluetooth
+
+          modules.gnome-keyring
         ];
       };
     };
