@@ -4,7 +4,7 @@
     isNormalUser = true;
     description = "Mimir";
 
-    extraGroups = [ "audio" "jackaudio" "wheel" "networkmanager" "input" ];
+    extraGroups = [ "audio" "jackaudio" "wheel" "networkmanager" "input" "plugdev" ];
 
     passwordFile = "/etc/mimir_pwhash";
   };
