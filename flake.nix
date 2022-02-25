@@ -35,6 +35,8 @@
         bluetooth = import modules/bluetooth.nix;
 
         gnome-keyring = import modules/gnome-keyring.nix;
+
+        ledger = import modules/ledger.nix;
       };
 
       customPackages = {
@@ -80,6 +82,8 @@
           modules.bluetooth
 
           modules.gnome-keyring
+
+          modules.ledger
         ];
       };
     };
