@@ -69,6 +69,8 @@ customPackages:
     mixxx
 
     (customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; extraPythonPackages = (p: [ p.colorama p.scapy ]); })
+
+    sshfs
   ]);
 
   programs.bash.enable = true;

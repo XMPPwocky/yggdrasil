@@ -38,12 +38,10 @@
 
   hardware.opengl = {
     enable = true;
-    extraPackages = with pkgs; [ intel-media-driver pkgs.vaapiIntel pkgs.vaapiVdpau libvdpau-va-gl ];
+    extraPackages = with pkgs; [ intel-media-driver vaapiIntel ];
     driSupport32Bit = true;
   };
-  nixpkgs.config.packageOverrides = pkgs: {
-    vaapiIntel = pkgs.vaapiIntel.override { enableHybridCodec = true; };
-  };
+  environment.sessionVariables.LIBVA_DRIVER_NAME = "iHD";
 
   services.fprintd.enable = false;
 

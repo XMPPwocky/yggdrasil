@@ -14,12 +14,9 @@ let
   bitwig = (bitwig-410.override {
     alsa-lib = pkgs.alsa-lib-git;
   });
-  
-  wine = pkgs.wineWowPackages.stagingFull;
 in
 {
   home.packages = [ bitwig
-  #(pkgs.yabridge.override { wine = wine; })
-  #(pkgs.yabridgectl.override { wine = wine; })
+  pkgs.yabridge pkgs.yabridgectl
   ];
 }
