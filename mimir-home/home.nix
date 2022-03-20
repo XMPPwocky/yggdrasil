@@ -19,6 +19,7 @@ customPackages:
     apps/firefox.nix
 
     apps/signal-desktop.nix
+    apps/element-desktop.nix
 
     apps/bitwig.nix
 
