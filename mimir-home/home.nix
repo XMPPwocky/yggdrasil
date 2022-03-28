@@ -29,6 +29,8 @@ customPackages:
 
     apps/vlc.nix
 
+    apps/weechat.nix
+
     ./cfg-defaults.nix
   ];
 
