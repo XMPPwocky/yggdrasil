@@ -19,7 +19,7 @@
       rnix-lsp
     ];
 
-    coc.enable = true;
+    coc.enable = false;
 
     coc.settings = {
       languageserver.nix = {
