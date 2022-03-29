@@ -5,14 +5,8 @@ with lib;
   security.apparmor.enable = mkDefault true;
   security.apparmor.killUnconfinedConfinables = mkDefault true;
 
-  # disabled for now, breaks firefox in an obnoxious way
-  # and has significant performance impact
-  #environment.memoryAllocator.provider = "scudo";
-  #environment.variables.SCUDO_OPTIONS = "ZeroContents=1";
-
   boot.kernelParams = [
-    # Slab/slub sanity checks, redzoning, and poisoning
-    "slub_debug=FZP"
+    "init_on_alloc=1" "init_on_free=1"
 
     # Overwrite free'd memory
     "page_poison=1"
@@ -20,53 +14,6 @@ with lib;
     # Enable page allocator randomization
     "page_alloc.shuffle=1"
   ];
-
-  #boot.kernelPatches = [
-  #  {
-  #    name = "hardened-usercopy";
-  #    patch = null;
-  #    extraConfig = ''
-  #      HARDENED_USERCOPY y
-  #    '';
-  #  }
-  #  {
-  #    name = "fortify-source";
-  #    patch = null;
-  #    extraConfig = ''
-  #      FORTIFY_SOURCE y
-  #    '';
-  #  }
-  #  {
-  #    name = "slab-freelist-randomization";
-  #    patch = null;
-  #    extraConfig = ''
-  #      SLAB_FREELIST_RANDOM y
-  #    '';
-  #  }
-  #  {
-  #    name = "gcc-hardening-plugins";
-  #    patch = null;
-  #    extraConfig = ''
-  #      # Enable GCC Plugins
-  #            GCC_PLUGINS y
-
-  #      # Gather additional entropy at boot time for systems that may not have appropriate entropy sources.
-  #            GCC_PLUGIN_LATENT_ENTROPY y
-
-  #      # Force all structures to be initialized before they are passed to other functions.
-  #      # When building with GCC:
-  #            GCC_PLUGIN_STRUCTLEAK y
-  #            GCC_PLUGIN_STRUCTLEAK_BYREF_ALL y
-
-  #      # Wipe stack contents on syscall exit (reduces stale data lifetime in stack)
-  #            GCC_PLUGIN_STACKLEAK y
-
-  #      # Randomize the layout of system structures. This may have dramatic performance impact, so
-  #      # use with caution or also use GCC_PLUGIN_RANDSTRUCT_PERFORMANCE y
-  #            GCC_PLUGIN_RANDSTRUCT y
-  #    '';
-  #  }
-  #];
 
   # yoinked from nixpkgs hardened profile
 
