@@ -69,4 +69,8 @@
   ];
 
   fileSystems."/".options = [ "relatime" "nodiratime" "discard=async" "compress=zstd:1" ];
+
+  security.allowUserNamespaces = true;
+  boot.kernel.sysctl."kernel.unprivileged_userns_clone" = 1;
+
 }
