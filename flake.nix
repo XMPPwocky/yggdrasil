@@ -14,8 +14,8 @@
       customPackages = {
         binaryninja = binaryninja-nix;
       };
-      nixosModules = (import ./nix/nixos-modules.nix) { inherit customPackages home-manager nixpkgs; };
-      nixosConfigurations = (import ./nix/nixos-configurations.nix) { inherit customPackages home-manager nixpkgs nixosModules; };
+      nixosModules = (import ./nix/nixos-modules.nix) { inherit customPackages home-manager; };
+      nixosConfigurations = (import ./nix/nixos-configurations.nix) { inherit customPackages home-manager nixosModules nixpkgs; };
     in
     {
       inherit nixosConfigurations nixosModules;

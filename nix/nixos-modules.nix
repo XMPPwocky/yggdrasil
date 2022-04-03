@@ -1,8 +1,10 @@
-{ nixpkgs, ...}:
+{ home-manager, customPackages }:
+{ nixpkgs, config, ...}:
 {
   enable-flakes = import nixos-modules/enable-flakes.nix;
   nixpkgs-registry = import nixos-modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
-  home-manager = import nixos-modules/home-manager.nix;
+
+  home-manager = import nixos-modules/home-manager.nix { inherit home-manager customPackages config; };
 
   hardening = import nixos-modules/hardening.nix;
 

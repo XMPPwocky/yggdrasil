@@ -1,14 +1,16 @@
-{ nixpkgs, home-manager, customPackages, nixosModules, ...}: {
+{ home-manager, customPackages, nixosModules, nixpkgs }: {
   mimir-nixos-fw = nixpkgs.lib.nixosSystem {
     system = "x86_64-linux";
     modules = [
       ./machines/mimir-nixos-fw/configuration.nix
 
-    nixosModules.nixpkgs-registry
+      nixosModules.nixpkgs-registry
       nixosModules.enable-flakes
 
       nixosModules.hardening
+
       nixosModules.basic-users
+      nixosModules.home-manager
 
       nixosModules.laptop
 
@@ -34,4 +36,4 @@
       nixosModules.livestreaming
       ];
   };
-                               }
+}
