@@ -37,6 +37,8 @@
         gnome-keyring = import modules/gnome-keyring.nix;
 
         ledger = import modules/ledger.nix;
+
+        livestreaming = import modules/livestreaming.nix;
       };
 
       customPackages = {
@@ -84,6 +86,8 @@
           modules.gnome-keyring
 
           modules.ledger
+
+          modules.livestreaming
         ];
       };
     };

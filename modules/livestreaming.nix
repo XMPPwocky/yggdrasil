@@ -1,4 +1,4 @@
-{ pkgs, cfg, ... }: {
+{ pkgs, config, ... }: {
   environment.systemPackages = [ pkgs.obs-studio ];
-  boot.kernelModules=
+  boot.extraModulePackages = [ config.boot.kernelPackages.v4l2loopback ];
 }
