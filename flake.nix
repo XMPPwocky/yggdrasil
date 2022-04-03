@@ -11,42 +11,13 @@
 
   outputs = { self, home-manager, nixpkgs, binaryninja-nix }:
     let
-      modules = {
-        enable-flakes = import modules/enable-flakes.nix;
-        nixpkgs-registry = import modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
-
-        hardening = import modules/hardening.nix;
-
-        basic-users = import modules/basic-users.nix;
-
-        laptop = import modules/laptop.nix;
-
-        gui = import modules/gui.nix;
-        systemd-resolved = import modules/systemd-resolved.nix;
-        audio = import modules/audio.nix;
-        alsa-lib-git = import modules/alsa-lib-git.nix;
-        tailscale = import modules/tailscale.nix;
-
-        power-utils = import modules/power-utils.nix;
-
-        ps5-controller-udev = import modules/ps5-controller-udev.nix;
-        steam = import modules/steam.nix;
-
-        bluetooth = import modules/bluetooth.nix;
-
-        gnome-keyring = import modules/gnome-keyring.nix;
-
-        ledger = import modules/ledger.nix;
-
-        livestreaming = import modules/livestreaming.nix;
-      };
-
       customPackages = {
         binaryninja = binaryninja-nix;
       };
+      nixosModules = import ./nix/nixos-modules.nix;
     in
     {
-      nixosModules = modules;
+      inherit nixosModules;
 
       nixosConfigurations.mimir-nixos-fw = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -60,34 +31,34 @@
             home-manager.users.mimir = (import mimir-home/home.nix) customPackages;
           }
 
-          modules.nixpkgs-registry
-          modules.enable-flakes
+          nixosModules.nixpkgs-registry
+          nixosModules.enable-flakes
 
-          modules.hardening
-          modules.basic-users
+          nixosModules.hardening
+          nixosModules.basic-users
 
-          modules.laptop
+          nixosModules.laptop
 
-          modules.gui
+          nixosModules.gui
 
-          modules.audio
-          modules.alsa-lib-git
+          nixosModules.audio
+          nixosModules.alsa-lib-git
 
-          modules.systemd-resolved
-          modules.tailscale
+          nixosModules.systemd-resolved
+          nixosModules.tailscale
 
-          modules.power-utils
+          nixosModules.power-utils
 
-          modules.ps5-controller-udev
-          modules.steam
+          nixosModules.ps5-controller-udev
+          nixosModules.steam
 
-          modules.bluetooth
+          nixosModules.bluetooth
 
-          modules.gnome-keyring
+          nixosModules.gnome-keyring
 
-          modules.ledger
+          nixosModules.ledger
 
-          modules.livestreaming
+          nixosModules.livestreaming
         ];
       };
     };
