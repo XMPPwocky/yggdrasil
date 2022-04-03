@@ -1,30 +1,30 @@
-      {
-        enable-flakes = import modules/enable-flakes.nix;
-        nixpkgs-registry = import modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
+{
+  enable-flakes = import nixos-modules/enable-flakes.nix;
+  nixpkgs-registry = import nixos-modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
 
-        hardening = import modules/hardening.nix;
+  hardening = import nixos-modules/hardening.nix;
 
-        basic-users = import modules/basic-users.nix;
+  basic-users = import nixos-modules/basic-users.nix;
 
-        laptop = import modules/laptop.nix;
+  laptop = import nixos-modules/laptop.nix;
 
-        gui = import modules/gui.nix;
-        systemd-resolved = import modules/systemd-resolved.nix;
-        audio = import modules/audio.nix;
-        alsa-lib-git = import modules/alsa-lib-git.nix;
-        tailscale = import modules/tailscale.nix;
+  gui = import nixos-modules/gui.nix;
+  systemd-resolved = import nixos-modules/systemd-resolved.nix;
+  audio = import nixos-modules/audio.nix;
+  alsa-lib-git = import nixos-modules/alsa-lib-git.nix;
+  tailscale = import nixos-modules/tailscale.nix;
 
-        power-utils = import modules/power-utils.nix;
+  power-utils = import nixos-modules/power-utils.nix;
 
-        ps5-controller-udev = import modules/ps5-controller-udev.nix;
-        steam = import modules/steam.nix;
+  ps5-controller-udev = import nixos-modules/ps5-controller-udev.nix;
+  steam = import nixos-modules/steam.nix;
 
-        bluetooth = import modules/bluetooth.nix;
+  bluetooth = import nixos-modules/bluetooth.nix;
 
-        gnome-keyring = import modules/gnome-keyring.nix;
+  gnome-keyring = import nixos-modules/gnome-keyring.nix;
 
-        ledger = import modules/ledger.nix;
+  ledger = import nixos-modules/ledger.nix;
 
-        livestreaming = import modules/livestreaming.nix;
-      }
+  livestreaming = import nixos-modules/livestreaming.nix;
+}
 
