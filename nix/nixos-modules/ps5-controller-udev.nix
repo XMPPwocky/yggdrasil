@@ -1,3 +1,4 @@
+{ ... }:
 {
   boot.kernelModules = [ "hid_playstation" ];
 

@@ -1,3 +1,4 @@
+{ ... }:
 {
   services.resolved = {
     enable = true;

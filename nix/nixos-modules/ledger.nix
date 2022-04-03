@@ -1,3 +1,4 @@
+{pkgs, ...}:
 {
   # Required for Ledger Live to detect Ledger Nano S via USB
   services.udev.extraRules = ''

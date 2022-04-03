@@ -1,5 +1,4 @@
-customPackages:
-{ config, pkgs, lib, ... }:
+{ config, pkgs, lib, customPackages, ... }:
 
 {
   imports = [

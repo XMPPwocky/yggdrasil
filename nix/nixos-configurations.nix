@@ -1,16 +1,20 @@
-{ home-manager, customPackages, nixosModules, nixpkgs }: {
-  mimir-nixos-fw = nixpkgs.lib.nixosSystem {
+{ home-manager, customPackages, nixosModules, flake-utils, nixpkgs }: {
+  mimir-nixos-fw = let pkgs = nixpkgs.legacyPackages.x86_64-linux;
+  in nixpkgs.lib.nixosSystem {
     system = "x86_64-linux";
     modules = [
-      ./machines/mimir-nixos-fw/configuration.nix
 
+    { 
+	    nixpkgs.config.nixpkgs-branch = "nixos-stable";
+    }
+      (import ./machines/mimir-nixos-fw/configuration.nix)
       nixosModules.nixpkgs-registry
       nixosModules.enable-flakes
 
       nixosModules.hardening
 
       nixosModules.basic-users
-      nixosModules.home-manager
+      #nixosModules.homeManager
 
       nixosModules.laptop
 

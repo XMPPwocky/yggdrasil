@@ -1,33 +1,32 @@
-{ home-manager, customPackages }:
-{ nixpkgs, config, ...}:
+{ home-manager, customPackages, flake-utils }:
 {
-  enable-flakes = import nixos-modules/enable-flakes.nix;
-  nixpkgs-registry = import nixos-modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
+  enable-flakes = nixos-modules/enable-flakes.nix;
+  nixpkgs-registry = nixos-modules/nixpkgs-registry.nix;
 
-  home-manager = import nixos-modules/home-manager.nix { inherit home-manager customPackages config; };
+  homeManager = nixos-modules/home-manager.nix;
 
-  hardening = import nixos-modules/hardening.nix;
+  hardening = nixos-modules/hardening.nix;
 
-  basic-users = import nixos-modules/basic-users.nix;
+  basic-users = nixos-modules/basic-users.nix;
 
-  laptop = import nixos-modules/laptop.nix;
+  laptop = nixos-modules/laptop.nix;
 
-  gui = import nixos-modules/gui.nix;
-  systemd-resolved = import nixos-modules/systemd-resolved.nix;
-  audio = import nixos-modules/audio.nix;
-  alsa-lib-git = import nixos-modules/alsa-lib-git.nix;
-  tailscale = import nixos-modules/tailscale.nix;
+  gui = nixos-modules/gui.nix;
+  systemd-resolved = nixos-modules/systemd-resolved.nix;
+  audio = nixos-modules/audio.nix;
+  alsa-lib-git = nixos-modules/alsa-lib-git.nix;
+  tailscale = nixos-modules/tailscale.nix;
 
-  power-utils = import nixos-modules/power-utils.nix;
+  power-utils = nixos-modules/power-utils.nix;
 
-  ps5-controller-udev = import nixos-modules/ps5-controller-udev.nix;
-  steam = import nixos-modules/steam.nix;
+  ps5-controller-udev = nixos-modules/ps5-controller-udev.nix;
+  steam = nixos-modules/steam.nix;
 
-  bluetooth = import nixos-modules/bluetooth.nix;
+  bluetooth = nixos-modules/bluetooth.nix;
 
-  gnome-keyring = import nixos-modules/gnome-keyring.nix;
+  gnome-keyring = nixos-modules/gnome-keyring.nix;
 
-  ledger = import nixos-modules/ledger.nix;
+  ledger = nixos-modules/ledger.nix;
 
-  livestreaming = import nixos-modules/livestreaming.nix;
+  livestreaming = nixos-modules/livestreaming.nix;
 }
