@@ -1,6 +1,8 @@
+{ nixpkgs, ...}:
 {
   enable-flakes = import nixos-modules/enable-flakes.nix;
   nixpkgs-registry = import nixos-modules/nixpkgs-registry.nix { nixpkgs-branch = "nixos-unstable"; };
+  home-manager = import nixos-modules/home-manager.nix;
 
   hardening = import nixos-modules/hardening.nix;
 
@@ -27,4 +29,3 @@
 
   livestreaming = import nixos-modules/livestreaming.nix;
 }
-

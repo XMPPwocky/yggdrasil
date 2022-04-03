@@ -1,44 +1,37 @@
-{ nixpkgs, home-manager, ...}: {
-      mimir-nixos-fw = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./machines/mimir-nixos-fw/configuration.nix
+{ nixpkgs, home-manager, customPackages, nixosModules, ...}: {
+  mimir-nixos-fw = nixpkgs.lib.nixosSystem {
+    system = "x86_64-linux";
+    modules = [
+      ./machines/mimir-nixos-fw/configuration.nix
 
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.mimir = (import mimir-home/home.nix) customPackages;
-          }
+    nixosModules.nixpkgs-registry
+      nixosModules.enable-flakes
 
-          nixosModules.nixpkgs-registry
-          nixosModules.enable-flakes
+      nixosModules.hardening
+      nixosModules.basic-users
 
-          nixosModules.hardening
-          nixosModules.basic-users
+      nixosModules.laptop
 
-          nixosModules.laptop
+      nixosModules.gui
 
-          nixosModules.gui
+      nixosModules.audio
+      nixosModules.alsa-lib-git
 
-          nixosModules.audio
-          nixosModules.alsa-lib-git
+      nixosModules.systemd-resolved
+      nixosModules.tailscale
 
-          nixosModules.systemd-resolved
-          nixosModules.tailscale
+      nixosModules.power-utils
 
-          nixosModules.power-utils
+      nixosModules.ps5-controller-udev
+      nixosModules.steam
 
-          nixosModules.ps5-controller-udev
-          nixosModules.steam
+      nixosModules.bluetooth
 
-          nixosModules.bluetooth
+      nixosModules.gnome-keyring
 
-          nixosModules.gnome-keyring
+      nixosModules.ledger
 
-          nixosModules.ledger
-
-          nixosModules.livestreaming
-        ];
-      };
-    };
+      nixosModules.livestreaming
+      ];
+  };
+                               }
