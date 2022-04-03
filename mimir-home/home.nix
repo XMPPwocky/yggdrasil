@@ -31,8 +31,6 @@ customPackages:
 
     apps/weechat.nix
 
-    apps/obs.nix
-
     ./cfg-defaults.nix
   ];
 
