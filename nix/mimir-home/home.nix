@@ -8,7 +8,7 @@ customPackages:
     apps/alacritty.nix
     apps/tmux.nix
 
-    apps/neovim/default.nix
+    apps/neovim.nix
 
     apps/nixops.nix
 

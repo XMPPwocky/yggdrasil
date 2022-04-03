@@ -28,6 +28,6 @@
       };
     };
 
-    extraConfig = (builtins.readFile ./init_extra.vim);
+    extraConfig = (builtins.readFile ../../init_extra.vim);
   };
 }
