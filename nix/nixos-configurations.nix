@@ -1,12 +1,19 @@
-{ home-manager, customPackages, nixosModules, flake-utils, nixpkgs }: {
+{ home-manager, customPackages, nixosModules, flake-utils, nixpkgs, ... }: {
   mimir-nixos-fw = let pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in nixpkgs.lib.nixosSystem {
     system = "x86_64-linux";
     modules = [
-
     { 
-	    nixpkgs.config.nixpkgs-branch = "nixos-stable";
+      config.nixpkgs.config.nixpkgs-branch = "nixos-unstable";
     }
+
+    #{ 
+    #  config.customPackages = customPackages;
+#		config.home-manager.useGlobalPkgs = true;
+#		config.home-manager.useUserPackages = true;
+#		config.home-manager.users.mimir = (import mimir-home/home.nix);
+#	    config.nixpkgs.config.nixpkgs-branch = "nixos-unstable";
+#    }
       (import ./machines/mimir-nixos-fw/configuration.nix)
       nixosModules.nixpkgs-registry
       nixosModules.enable-flakes
@@ -14,7 +21,7 @@
       nixosModules.hardening
 
       nixosModules.basic-users
-      #nixosModules.homeManager
+      nixosModules.homeManager
 
       nixosModules.laptop
 

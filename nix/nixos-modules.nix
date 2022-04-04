@@ -3,7 +3,7 @@
   enable-flakes = nixos-modules/enable-flakes.nix;
   nixpkgs-registry = nixos-modules/nixpkgs-registry.nix;
 
-  homeManager = nixos-modules/home-manager.nix;
+  homeManager = (import nixos-modules/home-manager.nix) { homeManager = home-manager; };
 
   hardening = nixos-modules/hardening.nix;
 
