@@ -1,4 +1,4 @@
-{ flake-utils, pkgs }:
+{ flake-utils }:
 {
   enable-flakes = modules/enable-flakes.nix;
   nixpkgs-registry = modules/nixpkgs-registry.nix;

@@ -1,12 +1,19 @@
 {
   description = "A very basic flake";
 
-  outputs = { self, nixpkgs }:
+  inputs.flake-utils.url = "github:numtide/flake-utils";
+
+  outputs = { self, nixpkgs, flake-utils }:
     let
-      nixosModules = (import ./nixos/modules.nix) { inherit nixpkgs; };
-      nixosConfigurations = (import ./nixos/configurations.nix) { inherit nixpkgs; };
+      mkAsgardNixOSModules = (system: 
+        (nixpkgs.legacyPackages.${system}.callPackage ./modules.nix { inherit flake-utils; }));
+
+      nixosModules = (
+        flake-utils.lib.eachDefaultSystem mkAsgardNixOSModules
+      );
+
     in
     {
-      inherit nixosConfigurations nixosModules;
+      inherit nixosModules;
     };
 }
