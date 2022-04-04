@@ -5,10 +5,13 @@
     modules = [
     { 
       config.nixpkgs.config.nixpkgs-branch = "nixos-unstable";
+		config.home-manager.useGlobalPkgs = true;
+		config.home-manager.useUserPackages = true;
+		config.home-manager.users.mimir = (import mimir-home/home.nix);
+    config.nixpkgs.config.customPackages = customPackages;
     }
 
     #{ 
-    #  config.customPackages = customPackages;
 #		config.home-manager.useGlobalPkgs = true;
 #		config.home-manager.useUserPackages = true;
 #		config.home-manager.users.mimir = (import mimir-home/home.nix);

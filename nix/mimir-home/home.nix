@@ -1,4 +1,4 @@
-{ config, pkgs, lib, customPackages, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   imports = [
@@ -70,7 +70,7 @@
 
     mixxx
 
-    (customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; extraPythonPackages = (p: [ p.colorama p.scapy ]); })
+    (pkgs.config.customPackages.binaryninja.makeBinjaWrapper { binaryNinjaPath = "/home/mimir/binaryninja"; extraPythonPackages = (p: [ p.colorama p.scapy ]); })
 
     sshfs
   ]);
