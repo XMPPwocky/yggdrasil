@@ -1,9 +1,6 @@
-{ home-manager, customPackages, flake-utils }:
 {
   enable-flakes = modules/enable-flakes.nix;
   nixpkgs-registry = modules/nixpkgs-registry.nix;
-
-  homeManager = (import modules/home-manager.nix) { homeManager = home-manager; };
 
   hardening = modules/hardening.nix;
 
