@@ -1,32 +1,32 @@
 { home-manager, customPackages, flake-utils }:
 {
-  enable-flakes = nixos-modules/enable-flakes.nix;
-  nixpkgs-registry = nixos-modules/nixpkgs-registry.nix;
+  enable-flakes = modules/enable-flakes.nix;
+  nixpkgs-registry = modules/nixpkgs-registry.nix;
 
-  homeManager = (import nixos-modules/home-manager.nix) { homeManager = home-manager; };
+  homeManager = (import modules/home-manager.nix) { homeManager = home-manager; };
 
-  hardening = nixos-modules/hardening.nix;
+  hardening = modules/hardening.nix;
 
-  basic-users = nixos-modules/basic-users.nix;
+  basic-users = modules/basic-users.nix;
 
-  laptop = nixos-modules/laptop.nix;
+  laptop = modules/laptop.nix;
 
-  gui = nixos-modules/gui.nix;
-  systemd-resolved = nixos-modules/systemd-resolved.nix;
-  audio = nixos-modules/audio.nix;
-  alsa-lib-git = nixos-modules/alsa-lib-git.nix;
-  tailscale = nixos-modules/tailscale.nix;
+  gui = modules/gui.nix;
+  systemd-resolved = modules/systemd-resolved.nix;
+  audio = modules/audio.nix;
+  alsa-lib-git = modules/alsa-lib-git.nix;
+  tailscale = modules/tailscale.nix;
 
-  power-utils = nixos-modules/power-utils.nix;
+  power-utils = modules/power-utils.nix;
 
-  ps5-controller-udev = nixos-modules/ps5-controller-udev.nix;
-  steam = nixos-modules/steam.nix;
+  ps5-controller-udev = modules/ps5-controller-udev.nix;
+  steam = modules/steam.nix;
 
-  bluetooth = nixos-modules/bluetooth.nix;
+  bluetooth = modules/bluetooth.nix;
 
-  gnome-keyring = nixos-modules/gnome-keyring.nix;
+  gnome-keyring = modules/gnome-keyring.nix;
 
-  ledger = nixos-modules/ledger.nix;
+  ledger = modules/ledger.nix;
 
-  livestreaming = nixos-modules/livestreaming.nix;
+  livestreaming = modules/livestreaming.nix;
 }
