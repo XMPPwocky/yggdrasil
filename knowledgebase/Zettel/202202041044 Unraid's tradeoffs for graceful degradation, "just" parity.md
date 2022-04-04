@@ -1,1 +1,0 @@
-[[Unraid (operating system)]] makes some interesting tradeoffs, especially for [[Graceful degradation|graceful degradation]] - besides [[Parity]] drives, drives (in the main "array") just store data- they can be directly mounted outside of Unraid. But this comes at a major cost - being (mostly) unable to split files across drives / stripe data.

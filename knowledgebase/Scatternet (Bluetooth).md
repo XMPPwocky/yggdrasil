@@ -1,1 +1,0 @@
-A sort of [[Mesh networking|mesh network]] formed by multiple overlapping [[Piconet (Bluetooth)|piconets]]- with devices being Central in one piconet and Peripheral in others. (Bluetooth itself provides no *routing* over that mesh...)

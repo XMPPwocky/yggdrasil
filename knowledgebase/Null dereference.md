@@ -1,1 +1,0 @@
-Dereferencing a [[Null pointer]].

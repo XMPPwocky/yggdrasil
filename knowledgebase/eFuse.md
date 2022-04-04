@@ -1,7 +1,0 @@
-Can be blown but not unblown.
-
-Often you blow some eFuses and then blow some "end-of-manufacturing" fuse to prevent more from being blown... or blow a [[Cyclic redundancy check|CRC]] or [[Hash function|Hash]] of the other fuses into extra fuses. Thus any attempts to blow more fuses afterwards will fail (either by being blocked in hardware when the end-of-manufacturing fuse is blown, or by the CRC/hash mismatch being detected)
-
-That CRC/hash approach can also be used as a countermeasure to some [[Fault injection]] attacks.
-
-When a cryptographic key, especially a public key for [[RSA (cryptosystem)]], is stored in eFuses, it's generally better to store a [[Hash function|hash]] instead. First, it can be shorter than the actual key (for RSA, much shorter); more importantly, it's another [[Fault injection]] countermeasure. An RSA public key contains a modulus, which is the product of two [[Prime number|primes]]; bitflips in that modulus will generally not be the product of two primes. This allows cryptographic attacks which may be able to e.g. forge [[Code signing|firmware signatures]]. If a hash is stored instead, bitflips in the hash would require an attacker to find a [[Hash function#First preimage resistance|preimage]]. #finishme why?

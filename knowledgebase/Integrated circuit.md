@@ -1,1 +1,0 @@
-Chopped up (diced) from a [[Wafer (electronics)]] which typically contain lots of ICs. Contained in an [[Integrated circuit package]], which also provides electrical connections to the [[Die (integrated circuit)|die]] (often via [[Bond wire|bond wires]], though [[Chip-scale package|chip-scale packages]] generally use solder balls or similar on the die directly).

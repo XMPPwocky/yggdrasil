@@ -1,1 +1,0 @@
-[[Signal (UNIX)|Unix signals]] act almost as a sort of "usermode [[Interrupt (computing)|interrupt]]", and signal handlers thus have a lot of the same issues as interrupt handlers (if not more, because you have a richer [[Standard library]] / [[Language runtime]])

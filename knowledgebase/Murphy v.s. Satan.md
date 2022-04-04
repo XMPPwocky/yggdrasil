@@ -1,1 +1,0 @@
-The distinction between random, unplanned failures and an active, adaptive attacker.

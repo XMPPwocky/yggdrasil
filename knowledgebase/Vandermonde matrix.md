@@ -1,1 +1,0 @@
-A [[Matrix (linear algebra)|matrix]] which represents *evaluating a [[Polynomial]]* with some coefficients at a given point. (The *point* is fixed in the matrix; the coefficients are what you [[Matrix multiplication|multiply]] by). 

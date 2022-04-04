@@ -1,1 +1,0 @@
-System for recovering stolen vehicles.

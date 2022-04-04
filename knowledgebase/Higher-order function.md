@@ -1,1 +1,0 @@
-A [[Function (programming)|function]] which takes other functions as arguments.

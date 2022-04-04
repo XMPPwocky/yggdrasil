@@ -1,1 +1,0 @@
-If you [[Compression (audio effect)|compress]] a [[Snare drum]] it gets this neat "wooden" sound.

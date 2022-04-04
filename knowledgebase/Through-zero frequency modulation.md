@@ -1,1 +1,0 @@
-[[Frequency modulation]] where the frequency can go below zero, i.e. the phase begins to decrease with time.

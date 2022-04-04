@@ -1,1 +1,0 @@
-The Nix store is where [[Nix]] stores... most of its stuff. 

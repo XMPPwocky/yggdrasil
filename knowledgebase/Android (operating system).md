@@ -1,1 +1,0 @@
-Based on the [[Linux]] kernel, but with a very nonstandard [[Userspace]] environment.

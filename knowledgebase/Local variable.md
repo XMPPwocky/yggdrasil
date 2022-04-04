@@ -1,1 +1,0 @@
-Generally stored either in [[Register (CPU)|CPU registers]] or as part of a function's stack frame on the [[Call stack]].

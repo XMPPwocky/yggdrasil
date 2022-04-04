@@ -1,2 +1,0 @@
-# U-Boot shell
-U-Boot has a built-in shell/prompt, which can be really useful for [[Failure analysis]], [[Debugging]], etc... but it can also be an easy way to get a (Linux or whatever) shell on an [[Embedded device]]. [[202201242046 Recovery is weak]] 

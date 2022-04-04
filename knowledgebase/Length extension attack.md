@@ -1,3 +1,0 @@
-[[Merkle–Damgård construction]] hash functions have a rather interesting property- because they're based on repeatedly applying a compression function, and then the hash is that function's output after the final block (plus padding)... if you have the hash of some bitstring `X`, without knowing X you can compute the hash of `X + padding + Y` for an arbitrary Y.
-
-This breaks many systems that should have been using an [[HMAC]]...

@@ -1,1 +1,0 @@
-A "popular" implementation of [[Conservative garbage collection]] for [[C (programming language)]] and [[C++]].

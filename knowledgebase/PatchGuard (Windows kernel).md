@@ -1,3 +1,0 @@
-In the [[Windows kernel]] ... tries to make life harder for [[Rootkit|rootkits]]... and dodgy drivers...
-
-Heavily [[Obfuscation|obfuscated]] code 

@@ -1,1 +1,0 @@
-[[Public-key cryptosystem]] based on the [[Discrete logarithm problem]]'s difficulty. Involves [[Prime number]]s.

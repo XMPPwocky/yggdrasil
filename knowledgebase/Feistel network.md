@@ -1,1 +1,0 @@
-A Feistel network is a really neat way of constructing a [[Permutation (mathematics)]] - and an invertible one, at that! - from any function. (As an invertible permutation, if your function is 'keyed' you effectively get a [[Block cipher]]) 

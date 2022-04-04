@@ -1,1 +1,0 @@
-A hybrid [[Kernel|kernel]] combines features of [[Microkernel]]s and [[Monolithic kernel]]s.

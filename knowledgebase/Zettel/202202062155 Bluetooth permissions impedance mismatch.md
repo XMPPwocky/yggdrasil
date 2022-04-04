@@ -1,3 +1,0 @@
-Bluetooth (at least [[Bluetooth Classic]]) has no real *permissions* model- you can pair to / bond with a device, and BT has some concept of a "security manager" managing security for various "services", e.g. [[L2CAP (Bluetooth)|L2CAP channels]] or [[RFCOMM (Bluetooth)|RFCOMM sockets]]- requiring authentication/encryption.
-
-But what's really missing is the idea of *pinning* a device's capabilities- 

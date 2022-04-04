@@ -1,3 +1,0 @@
-Context helps so much...
-
-[[Learning reverse engineering]]

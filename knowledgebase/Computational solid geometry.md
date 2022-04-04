@@ -1,3 +1,0 @@
-Operations are generally based on boolean/[[Set (mathematics)]] operations - e.g. intersection, union, difference...
-
-Has some... annoying [[Numeric stability]] issues

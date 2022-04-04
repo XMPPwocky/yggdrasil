@@ -1,1 +1,0 @@
-V.s. a [[Serial bus]]- generally, has multiple data lines with a shared [[Clock signal]] (i.e. implication that it's [[Source-synchronous]] I guess? Or at least just synchronous, I guess... since [[Serial Peripheral Interface#QSPI|QSPI (technically a parallel bus)]] when reading from a peripheral... clock from the controller, data from peripheral.

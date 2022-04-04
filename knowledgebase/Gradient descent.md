@@ -1,3 +1,0 @@
-Using gradient info (especially from [[Automatic differentiation]]) to optimize...
-
-Used loads in [[Machine learning]]

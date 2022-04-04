@@ -1,1 +1,0 @@
-An atomic operation executes either in its entirety or not at all; it can't be "split up", and intermediate results can't be observed.

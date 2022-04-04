@@ -1,1 +1,0 @@
-Joining two materials (typically [[Metal|metals]]) with a *similar* filler material or with no filler at all (v.s. [[Soldering]], where the filler is dissimilar)

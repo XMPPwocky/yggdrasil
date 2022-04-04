@@ -1,1 +1,0 @@
-Basically, a [[Linear transformation]] plus an "offset".

@@ -1,3 +1,0 @@
-Classic example is a certain old type of very accurate clock...
-
-Can demodulate [[Frequency modulation]] - but why use a PLL over a simpler option like quadrature demodulation?

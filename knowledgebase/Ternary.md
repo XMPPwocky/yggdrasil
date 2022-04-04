@@ -1,1 +1,0 @@
-Because 3 is closer to [[Euler's number|e]] than 2 is.

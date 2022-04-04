@@ -1,1 +1,0 @@
-Assumes the [[Lumped element model]] (AIUI)

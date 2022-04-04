@@ -1,1 +1,0 @@
-FUSE ([[Filesystem]] In [[Userspace|User Space]]) is an API with which userspace programs can implement a filesystem.

@@ -1,3 +1,0 @@
-In the [[Source (game engine)|Source engine]], there's a general-purpose file transfer mechanism (`CNetChan::SendFile` and friends). This has led to a huge number of security issues, particularly [[Directory traversal]] problems.
-
-In practice, this is generally used for 2 things: first, servers send clients files for [[BSP file (Source engine)|maps]], custom models, etc (though FastDL makes using the actual CNetChan mechanism uncommon). Second, clients upload custom player sprays to the server.

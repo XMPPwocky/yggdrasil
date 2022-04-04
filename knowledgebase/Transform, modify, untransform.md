@@ -1,3 +1,0 @@
-Almost like the core idea of a [[Lens (computer science))]]...
-
-The [[Kernel trick]] also kind of feels similar?

@@ -1,3 +1,0 @@
-A eutectic mixture is one that changes [[Phase (thermodynamics)|phase]] "all at once" - there's no phase mixture at the transition point.
-
-Makes [[Distillation]] of some things very hard- e.g. iirc ethanol and water form a eutectic at some point so you have to get clever...

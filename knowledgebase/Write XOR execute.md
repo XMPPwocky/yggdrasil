@@ -1,1 +1,0 @@
-Allowing memory to be either writable or executable but not both (i.e. [[XOR]]).

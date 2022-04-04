@@ -1,3 +1,0 @@
-a.k.a. "mutation testing"...
-
-A major part of the bug discovery process in modern [[Vulnerability research]]

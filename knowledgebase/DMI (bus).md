@@ -1,1 +1,0 @@
-On the [[Intel platform]], DMI is a high-speed link between the CPU and PCH. Allegedly, it's based on or at least related to [[PCIe]]. Sensitive data may be sent over it unencrypted... but [[202201212213 High-speed buses are hard to tap|the bus is so fast sniffing is difficult]].

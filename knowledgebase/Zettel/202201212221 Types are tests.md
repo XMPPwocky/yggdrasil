@@ -1,1 +1,0 @@
-See also: [[202201212220 Types are documentation]]

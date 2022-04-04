@@ -1,3 +1,0 @@
-A theory often phrased as "if an attacker has physical access to your computer, it's not your computer anymore".
-
-This was sort of accepted as "obvious" for a while, especially in the context of PCs... but [[Smartphone]]s notably changed the game quite a bit in terms of popularizing devices hardened against physical attack. Today, largely depends on your [[Threat modelling|threat model]]...

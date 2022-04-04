@@ -1,1 +1,0 @@
-Typically, a (relatively) small [[Assembly language]] snippet that represents the "payload" (or early stage of payload) of an [[Software exploit|exploit]]. Named because historically it'd be "the code that gets you a [[Shell (computing)|shell]], as in shell access to the system you just hacked).

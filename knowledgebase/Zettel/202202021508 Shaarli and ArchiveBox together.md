@@ -1,3 +1,0 @@
-For [[202202021501 Archiving web pages]], you can combine [[Shaarli (bookmark manager)]] and [[ArchiveBox (Internet archiver)]] by just adding a cronjob/scheduled task that adds to ArchiveBox the [[Really Simple Syndication|RSS]] feed of your latest bookmarks from Shaarli.
-
-This also lets you block [[JavaScript]] from [[ArchiveBox (Internet archiver)]] [[202202021505 ArchiveBox is XSS by design|for security reasons]], and just add things through Shaarli. (And can use the various Shaarli [[Smartphone]] apps!)

@@ -1,1 +1,0 @@
-[[Fuzzing roadblock problem]] applied to stopping [[COVID-19]] variants- vaccinate against all possible single-base mutations in e.g. the spike [[Protein]]. Then any single-base mutation that might otherwise lead to easy immune escape has little selective advantage - the host has already seen it.

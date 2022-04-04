@@ -1,3 +1,0 @@
-A [[Filter (signal processing)|filter]] whose cutoff frequency is changed over time.
-
-[[Resonance]] of the filter can be especially useful here...

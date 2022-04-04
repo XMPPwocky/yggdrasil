@@ -1,1 +1,0 @@
-Playing small parts, often just single syllables, of a vocal [[Sample (music)|sample]] as melodic element.

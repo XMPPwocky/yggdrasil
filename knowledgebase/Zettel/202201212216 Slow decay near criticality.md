@@ -1,1 +1,0 @@
-An idea I heard somewhere... basically, when you have a system near a [[Critical point]] (but that's still [[Damping|underdamped]]), as it approaches that critical point the decay time for a small perturbation increases dramatically. So you can get some sense of how close you are to criticality by looking at that time. 

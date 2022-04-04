@@ -1,1 +1,0 @@
-A family of [[ARM (architecture)|ARM]]-based [[System-on-chip|SoCs]].

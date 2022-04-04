@@ -1,1 +1,0 @@
-An all-pass filter has a flat (or nearly flat) magnitude response but a "useful" [[Phase]] response- it imparts a different (well, beyond the normal [[Linear phase]] inherent in any delay) phase response to different frequencies.

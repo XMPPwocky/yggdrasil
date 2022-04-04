@@ -1,1 +1,0 @@
-A braid made typically of [[Copper]]. When [[Flux (soldering)|flux]] and heat are applied, [[Surface tension]] pulls solder away from a [[Solder joint]] and into the braid, wetting it. Can be finnicky.

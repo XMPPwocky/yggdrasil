@@ -1,2 +1,0 @@
-# Types
-## Mask ROM

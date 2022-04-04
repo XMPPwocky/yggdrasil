@@ -1,3 +1,0 @@
-Generally the interpreter in dynamically-linked [[ELF (binary format)|ELF binaries]] for [[Linux]] - i.e. ld.so is what the kernel actually loads, and then ld.so has to [[Memory-mapped file|mmap]] the main program image in (and then resolve its imports from [[Shared library|shared libraries]]).
-
-Is not particularly hardened against bogus "inputs" (i.e. binaries)- doesn't seem to have direct security implications (after all, if you crash ld.so with a corrupt binary, you generally only get to that point when your binary was about to be run *anyways*)

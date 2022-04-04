@@ -1,1 +1,0 @@
-Can easily be a more significant factor for software performance than [[Asymptotic complexity]].

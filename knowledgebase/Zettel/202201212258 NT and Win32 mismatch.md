@@ -1,1 +1,0 @@
-For historical reasons, the [[Windows kernel|NT kernel]] is sort of at a mismatch with the [[Windows (operating system)|Win32]] userspace, which has a lot of [[DOS (operating system)]] heritage.

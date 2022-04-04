@@ -1,1 +1,0 @@
-Some things (e.g. platinum) seem to catalyze a whole bunch of [[Chemical reaction]]s. Why? Intuitively I'd not expect something that catalyzes one reaction to catalyze other, unrelated ones. (Maybe reactions are more related than I realize?)

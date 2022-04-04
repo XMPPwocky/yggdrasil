@@ -1,1 +1,0 @@
-Storing files on (typically) [[Block storage]]. Generally provides a hierarchical filesystem API.

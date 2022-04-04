@@ -1,1 +1,0 @@
-A [[Pointer]] which, conceptually, points to "nothing". In [[C (programming language)]], required to *compare equal* to 0, but not necessarily to be all 0 bits (...sigh)

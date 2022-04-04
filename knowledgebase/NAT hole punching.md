@@ -1,1 +1,0 @@
-Holepunching is essentially an *exploit* of quirks of [[Network address translation]] implementations.

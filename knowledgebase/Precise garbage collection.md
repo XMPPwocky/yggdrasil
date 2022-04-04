@@ -1,1 +1,0 @@
-[[Garbage collection]] which has type information and can differentiate between [[Pointer|pointers]] and e.g. integers with the same bit-pattern in memory as a pointer.

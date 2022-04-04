@@ -1,1 +1,0 @@
-A virtual [[Shared library]] 

@@ -1,1 +1,0 @@
-Even in a statically linked program, some dynamic linking may still happen (e.g. on [[Windows (operating system)]], dynamically linking to ntdll is effectively mandatory; on [[Linux]], the [[VDSO (Linux)]] has similar implications.

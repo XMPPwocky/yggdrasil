@@ -1,1 +1,0 @@
-[[Design pattern]]s becoming popular in a given language are sometimes a suggestion that the language isn't powerful enough to abstract over something; e.g. in some cases the [[Visitor pattern]] gets used instead of a simpler [[Callback]] in a language that lacks [[Closure (programming)|closures]] / [[Higher-order function]]s

@@ -1,1 +1,0 @@
-Instead of [[East-coast synthesis]] ("traditional" [[Subtractive synthesis]]), taking a simple waveform and adding complexity- often through [[Amplitude modulation]], [[Frequency modulation]], or [[Waveshaping]].

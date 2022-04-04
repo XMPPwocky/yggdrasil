@@ -1,1 +1,0 @@
-Breaking out of a [[Sandboxing|sandbox]], gaining less restricted access to the host system. A form of [[Privilege escalation]].

@@ -1,3 +1,0 @@
-Like [[Fly-by-wire]], has obvious safety concerns... often mitigated with redundancy, which [[Redundancy is not security|helps with safety and fault-tolerance, but not security]].
-
-Often relies on the [[CAN bus]], with associated problems...

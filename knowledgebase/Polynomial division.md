@@ -1,1 +1,0 @@
-Division of two [[Polynomial]]s.

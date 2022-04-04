@@ -1,1 +1,0 @@
-[[Nix]] (the language) is actually fairly well documented.. but [[Nixpkgs]] is not so much! Some common patterns are basically required knowledge to do anything useful, many functions aren't documented at all, and there's so much [[Dynamic language|dynamism]] going on that even figuring out where a function is *defined* can be an incredibly challenging task.

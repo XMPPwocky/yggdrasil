@@ -1,1 +1,0 @@
-A form of [[Compiler optimization|optimization]] done by [[Compiler]]s (or, really, [[Linking (computing)|linkers]], technically...?). Generally involves emitting an [[Intermediate representation]] into [[Object file|object files]], and then doing some or all of the real "compilation" at [[Linking (computing)|link-time]]

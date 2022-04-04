@@ -1,6 +1,0 @@
-Solutions I use or have used-
-
-- [[Pinboard (bookmarking service)]] offers archiving as a paid subscription service.
-- [[202202021458 Using Zotero as a web clipper|Zotero works surprisingly well]], but can [[202201260939 Worse if it seems to work|fail silently]] on e.g. highly dynamic pages. And won't capture videos, etc.
-- [[ArchiveBox (Internet archiver)]] archives all sorts of things (capturing normal web pages in several ways (a [[Document object model|DOM]] capture, PDF, HTML... from a headless [[Chromium (web browser]]... the result of just downloading the page... [[Git (version control system)|Git repositories]] are cloned, and anything supported by [[youtube-dl (software)]] is downloaded too, with a size limit.) However, security is a bit sketchy... and has nasty [[202202021505 ArchiveBox is XSS by design|XSS issues]].
-- [[Wallabag (app)]] attempts to save the text of, and sometimes images in, articles to read later (and can keep them after reading), but doesn't really work for much beyond that.

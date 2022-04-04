@@ -1,1 +1,0 @@
-Trusting a [[Cryptographic certificate|certificate]] the first time you see it, then saving ([[202202062202 Pinning for security|pinning]]) that cert. Later, if a different certificate is presented, failing/alerting. As in [[SSH (protocol)]].

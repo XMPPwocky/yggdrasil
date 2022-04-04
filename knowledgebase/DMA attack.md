@@ -1,3 +1,0 @@
-When a peripheral on a system can [[Direct memory access|DMA]] into main memory without restriction, it can (sort of by definition) read/write arbitrary memory. 
-
-[[IOMMU]]s are the major countermeasure to this. Some systems just trust peripherals (especially on "internal" buses like [[PCIe]]) under the theory that [[Physical access is game-over]] anyways - even if you do subscribe to that theory, though, restricting DMA can still be very useful. For example, the [[Baseband processor]] on modern [[Smartphone]]s is often behind an IOMMU so that (among other things) you have to trust its (opaque and complex) firmware less... assuming you trust the IOMMU itself, that is!

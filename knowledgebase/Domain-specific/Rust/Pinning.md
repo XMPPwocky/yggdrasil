@@ -1,1 +1,0 @@
-Keeping data from moving in memory.

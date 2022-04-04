@@ -1,1 +1,0 @@
-When you heat some flammable thing up to the point that it ignites spontanously, i.e. you've provided enough [[Activation energy]]

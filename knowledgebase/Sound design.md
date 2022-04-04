@@ -1,2 +1,0 @@
-[[Subtractive synthesis]]
-[[FM synthesis]]

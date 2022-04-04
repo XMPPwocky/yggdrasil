@@ -1,3 +1,0 @@
-Attempts to stop data from being treated as code... sort of keep code [[In-band signalling|"out-of-band"]]. Lets you enforce [[Write XOR execute|W^X]]... though in practice it's often weaker than that.
-
-Unfortunately, first [[Return-to-libc]] and then more generally [[Return-oriented programming]] make this a lot less effective than it initially appears. Suggests the [[202202072109 Data-code equivalence]].

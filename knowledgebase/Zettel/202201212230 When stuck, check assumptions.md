@@ -1,5 +1,0 @@
-Noticed that in a lot of [[Puzzle game]]s, e.g. [[Outer Wilds]], [[Baba Is You]], [[Return of the Obra Dinn]]... the feeling of being "stuck"- that no forward progress is possible, that things just don't make sense... tends to mean that I'm assuming something that isn't correct.
-
- Then realized this also applies in real situations (esp. [[Reverse engineering]])- when something seems "baffling" or "impossible", well... maybe it is, *with the assumptions I've made*!
-
- In some sense this is a sort of [[Modus tollens]] or [[Proof by contradiction]]- if I can prove "if my assumptions are correct, this result/desired outcome is impossible" and know/can prove "this result/desired outcome is possible", then my assumptions are incorrect (or my logic has just broken... though that likely leads to the same place, an incorrect *intermediate* assumption)

@@ -1,1 +1,0 @@
-A set of proposals to allow associated types to be [[Generic type]]s, either over actual [[Type (computing)|types]] or [[Lifetime (Rust)|lifetimes]].

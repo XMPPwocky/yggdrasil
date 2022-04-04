@@ -1,1 +1,0 @@
-Because [[202201260952 Cutting-edge things barely work]] - if cheap equipment could tap/record a high-speed bus, *the bus would probably be a lot faster*.

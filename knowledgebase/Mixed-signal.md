@@ -1,1 +1,0 @@
-Mixed-signal devices or techniques combine both analog and digital.

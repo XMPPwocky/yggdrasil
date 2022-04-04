@@ -1,1 +1,0 @@
-Especially in the context of [[Compiler]]s, static single assignment (SSA) form is a property an [[Intermediate representation]] can have- each "variable" must have only one assignment, with [[Phi node (SSA)|phi nodes]] merging those different "versions", sort of, based on actual [[Control flow]].

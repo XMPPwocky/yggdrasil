@@ -1,3 +1,0 @@
-Invented by Hedy Lamarr!
-
-[[Software-defined radio]] can defeat generically, given enough bandwidth (anything in the 2.4GHz [[ISM band]], and lower ISM bands, is doable w/ just 80MHz. The [[XTRX (software-defined radio)]] can do that for $600!). Can no longer be considered a security measure- at least for confidentiality and integrity. May still be useful for availability- against [[Jamming (radio)|jamming]], because an attacker who doesn't know the hopping sequence must spread their jamming power out (unless they can detect where the legitimate user is transmitting in time to "stomp" on their frames).
