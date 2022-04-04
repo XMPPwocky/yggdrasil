@@ -1,0 +1,1 @@
+A conflict between the [[Common Development and Distribution License|CDDL]] (under which [[ZFS (filesystem)|ZFS]] is licensed) and the [[GPL (license)|GPLv2]] (under which the [[Linux kernel]] is licensed]] has mostly prevented ZFS from being merged into Linux upstream.

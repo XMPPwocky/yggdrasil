@@ -1,0 +1,3 @@
+The kernel keeps track of the "init namespace" (as in PID 1's namespace? or just "initial namespace"?) and checks it for certain operations
+
+Gives an attacker a lot of [[Attacker wiggle room|wiggle room]], exposing lots of [[Attack surface]] that previously required UID0 / [[Capabilities#CAP_SYS_ADMIN|CAP_SYS_ADMIN]] (unprivileged users can make their own namespace in which they're "[[Root user|root]]"!)

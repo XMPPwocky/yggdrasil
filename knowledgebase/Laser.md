@@ -1,0 +1,3 @@
+Lasers need to be "pumped" (i.e. the amplifier needs to be powered) - often optically...
+
+Long [[Fiber optics|fiber-optical cables]] can use sorta-lasers as analog amplifiers, which is neat.

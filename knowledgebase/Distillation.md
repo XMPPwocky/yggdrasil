@@ -1,0 +1,1 @@
+Distillation is the separation of components of some substance by selective [[Phase (thermodynamics)|phase]] change. Typically [[Boiling]] or [[Evaporation]], but [[Freezing]] can also be used (as "freeze distillation").

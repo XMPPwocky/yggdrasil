@@ -1,0 +1,1 @@
+Fuzzy term but, in modern usage, mostly- a [[Security vulnerablilty]] for which no patch is available.

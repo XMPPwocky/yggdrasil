@@ -1,0 +1,1 @@
+Combines traditional [[Coverage-guided fuzzing]] with [[SAGE (fuzzing)|SAGE]]-like [[Symbolic execution#Concolic execution|Concolic execution]]  

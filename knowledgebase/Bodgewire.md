@@ -1,0 +1,3 @@
+Typically, thin wire [[Soldering|soldered]] to a [[Circuit board]]. Often [[Wire-wrap]] wire is used, or at least it's called that.
+
+Easy to lift a PCB trace if the wire isn't firmly attached...

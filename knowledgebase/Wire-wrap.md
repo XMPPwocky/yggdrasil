@@ -1,0 +1,3 @@
+A method of making (typically low-voltage, "signal") electrical connections where wires are wrapped onto e.g. IC pins very very tightly with a special tool - done correctly, they [[Cold welding|cold-weld]] together and can get a really good connection.
+
+Basically obsolete these days, though...

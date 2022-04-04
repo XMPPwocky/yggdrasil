@@ -1,0 +1,1 @@
+Still based on [[Linux]] but, like [[Android (operating system)]], has a very non-traditional userland.

@@ -1,0 +1,1 @@
+Conceptually, a symbolic link is a file that *contains the path of another file*, and then the [[Operating system]] (or sometimes other components) transparently follows the link.

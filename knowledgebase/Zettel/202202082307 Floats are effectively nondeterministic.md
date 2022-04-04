@@ -1,0 +1,1 @@
+[[Floating point]] numbers are basically [[Nondeterministic]], because of 1. [[Numeric stability]] blowups and 2. FPU, etc. implementation differences between platforms (sometimes even CPUs!)

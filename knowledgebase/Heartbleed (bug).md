@@ -1,0 +1,1 @@
+A [[Security vulnerablilty]] (specifically, an [[Information disclosure]]) in [[OpenSSL]]. Happened in the implementation of a relatively new [[TLS (protocol)|TLS]] feature, "heartbeats".

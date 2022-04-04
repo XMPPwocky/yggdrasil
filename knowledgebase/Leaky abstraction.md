@@ -1,0 +1,1 @@
+All abstractions are leaky... some are leakier than others... the trick is knowing where they leak!

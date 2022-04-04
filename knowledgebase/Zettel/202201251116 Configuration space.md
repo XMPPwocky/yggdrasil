@@ -1,0 +1,3 @@
+[[Configuration space]] is a neat idea...
+
+basically, consider the parameters/state of a system as coordinates in some space. Constraints (e.g. from [[Conservation law]]s) are then *lines* / curves / surfaces in that space

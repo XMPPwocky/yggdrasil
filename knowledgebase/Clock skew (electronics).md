@@ -1,0 +1,1 @@
+In electronics, clock skew refers to the difference in arrival time (typically from [[Propagation delay]]) between two synchronous signals (typically a clock and a data signal, or multiple bits in a synchronous [[Parallel bus]]).

@@ -1,0 +1,1 @@
+Configuration variable. Comes from [[Quake engine]].

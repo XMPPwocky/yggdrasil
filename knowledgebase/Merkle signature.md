@@ -1,0 +1,3 @@
+A [[Signature (cryptography)|digital signature]] scheme using [[Merkle tree]]s. Suppose you want to sign just one bit - you could have a single-level Merkle tree, and reveal the first leaf if the bit to sign is 0, else the other leaf. To sign two bits, use two levels, etc. Keys can't be [[Key reuse|reused]], though, at least in the basic scheme. Still neat.
+
+Also [[Quantum computing]] resistant (generally)!

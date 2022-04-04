@@ -1,0 +1,1 @@
+[[RISC architecture]], though a bit on the more complex side

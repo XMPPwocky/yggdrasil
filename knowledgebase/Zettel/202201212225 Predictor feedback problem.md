@@ -1,0 +1,3 @@
+When a *predictor* is used to make *decisions*, this introduces an unexpected [[Feedback]] path.
+
+e.g. given a [[Machine learning]] model that attempts to predict recidivism, if you use that to make bail decisions, you're introducing a feedback path (with a nasty [[Phase shift]]), that can introduce [[Chaos theory|chaotic behavior]] - from [[Oscillator from resonance and feedback|oscillations]] to utterly unpredictable results.

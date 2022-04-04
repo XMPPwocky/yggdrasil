@@ -1,0 +1,1 @@
+Turning a [[Function (programming)|function]] of multiple arguments into a function with fewer arguments by fixing one argument.

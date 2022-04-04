@@ -1,0 +1,1 @@
+Combining object files into one final [[Executable (computing)|executable]]

@@ -1,0 +1,3 @@
+"A man with one watch knows exactly what time it is. A man with two watches is never sure."
+
+If you have two [[Redundancy|redundant]] systems and they disagree (i.e. one has failed), all you can do is throw a fault and hopefully fall back into some sort of [[Limp mode]]. If you have three, and one disagrees with the other two, you can take the majority vote and continue uninterrupted operation (though you're now one fault away from a bigger problem!)

@@ -1,0 +1,1 @@
+[[Nixpkgs]] is basically a big program that generates build instructions for software. Not a "repository"!

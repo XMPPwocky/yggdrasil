@@ -1,0 +1,3 @@
+"Product types" in [[Algebraic data type]]s language
+
+sometimes "records" (hinting at the history there)...

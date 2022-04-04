@@ -1,0 +1,35 @@
+- Arrangement
+	- [[Phrasing (music)|Phrasing]] is a very strict 16 bars for everything
+	- Structure seems essentially A-B-A'-C repeated twice + intro. A' parts differ each time. C is breakdown first time, outro second.
+- Vocals
+	- Entirely built around 1 sample. Alternating between being played mostly straight and [[Vocal chops|chopped]] melodically
+	- Straight
+	    - Stutter occasionally (straight up audio repeat), usually at the end of musical phrases 
+		- Delay
+			- periodically, to fill space between vocal phrases (?), part of the vocal track is repeated in a decaying, filtered delay-y way different from the stutter)
+- [[Electric piano]]
+	- Only shows up twice- during intro and breakdown.
+	- 2-bar repeating chord progression. 
+- Sine chords/organ
+	- Two similar main patterns, one more [[Syncopation|syncopated]] than the other
+	- Switches chord progression up once (during A')
+- Bass
+	- Very smooth sub
+	- 2-bar phrase repeats for most of the track (outside of intro and breakdown). During A' section (when harmony shifts), and outro, the bass pattern goes from "AB" to "B_" (rest)
+- Flute
+	-  During first A section, 3-note pattern at the end of every 2nd bar
+	-  In next B section, same pat tern at the end of bars 4 and 12
+	-  Returns in A' same as A
+	-  In A'' switched up significantly: now it's chopped up and at the end of every single bar
+- Drums
+    - Kick runs basically continuously except intro/outro
+    - Hi-hat situation is interesting- seems like one sample of an analog hat playing at alternating/random pitches (maybe 2 in round-robin)
+		- Noticing some modulation of hi-hat sample envelope (decay time)? also "open" hat seems to be the closed HH w/ longer decay. choke.
+		- These hats are surprisingly [[Foreground-background (music)|forwards]] and present, not what I'd have expected. Adds a lot of interest with the modulation.
+	- Intro comes in w/ [[Filter sweep (audio)|filter sweeping]] up on main percussion loop
+	- Shakers show up twice, both in A' parts. Second time seems fuller... maybe less sidechain? 
+- FX
+	- Standard noise sweeps, crashes, reverses...
+	- [[Record scratch|scratches]] immediately before A, B, and A' sections (they go over the bar line a bit)
+
+#review 

@@ -1,0 +1,3 @@
+Paths on [[Windows (operating system)]] behave sort of unusually - because of [[202201212258 NT and Win32 mismatch]], there's a sort of canonicalization/translation layer inside a [[Dynamically-linked library]] .
+
+One interesting result of this is that [[Directory traversal]] bugs can actually go through non-existent directories, because `../` is resolved without actually touching the filesystem at all.

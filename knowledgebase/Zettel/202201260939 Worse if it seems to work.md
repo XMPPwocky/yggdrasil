@@ -1,0 +1,1 @@
+If something *seems* to work when used "normally" but really only works by "coincidence", or at least isn't robust enough to handle malicious situations, this can be a lot worse (for security, at least) than not working at all.

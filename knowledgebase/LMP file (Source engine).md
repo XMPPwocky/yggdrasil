@@ -1,0 +1,1 @@
+Contains data for one "lump" (think "section") of a [[BSP file (Source engine)|BSP]]. Intended to be used to patch maps.

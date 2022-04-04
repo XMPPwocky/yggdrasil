@@ -1,0 +1,2 @@
+## Bulk erase, then read RAM
+If you're lucky, a bulk erase will allow debugging over [[JTAG]] or whatever without clearing RAM. So you can erase, then load in something to dump RAM out and see what was in there. Sort of a [[Warm boot attack]]

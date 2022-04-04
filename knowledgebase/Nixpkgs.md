@@ -1,0 +1,1 @@
+Took a while for me to really understand that nixpkgs is ultimately *a program* or at least a library.

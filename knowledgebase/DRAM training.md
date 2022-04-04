@@ -1,0 +1,1 @@
+AIUI, combines [[Link training]] of the actual bus to the memory chips and possibly also learning some stuff about the characteristics of the chips themselves?

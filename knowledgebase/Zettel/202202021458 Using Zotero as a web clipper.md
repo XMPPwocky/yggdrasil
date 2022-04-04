@@ -1,0 +1,1 @@
+[[Zotero (reference manager)]] with the [[Web browser|browser]] connector (at least for [[Firefox (web browser)]]) will take snapshots of web pages you add, as well as tracking them in a normal reference-manager-y way.

@@ -1,0 +1,1 @@
+Uses [[Frequency modulation]] ... though often actually [[Phase modulation]] - 

@@ -1,0 +1,1 @@
+A branch / jump for which the destination is not fixed (v.s. a [[Conditional branch]] where the destination is fixed but the branch may not be taken, or an [[Unconditional branch]] where the destination is fixed and the branch is always taken. of course, there are sometimes indirect conditional branches too...)

@@ -1,0 +1,1 @@
+The borrow checker is responsible for enforcing rules around [[Borrowing]]. (Note that rules around liveness, avoiding [[Dangling pointer]]s, etc. are enforced by [[Domain-specific/Rust/regionck|regionck]].

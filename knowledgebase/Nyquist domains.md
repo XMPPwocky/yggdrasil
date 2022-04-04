@@ -1,0 +1,1 @@
+When a signal gets [[Aliasing (DSP)|aliased]], its spectrum is *folded back on itself* 

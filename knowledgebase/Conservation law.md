@@ -1,0 +1,1 @@
+Noether's theorem relates these to [[Symmetry|symmetries]], at least for systems that can be modeled as a [[Lagrangian]]. 

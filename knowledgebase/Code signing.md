@@ -1,0 +1,1 @@
+Applying [[Signature (cryptography)|digital signatures]] to [[Executable (computing)|executables]] to authenticate them.

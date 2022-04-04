@@ -1,0 +1,1 @@
+Field-programmable fuses (FPFs) are a block of [[eFuse|eFuses]] in the Intel PCH/chipset

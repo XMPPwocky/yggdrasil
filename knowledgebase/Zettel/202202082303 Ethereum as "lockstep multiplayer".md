@@ -1,0 +1,1 @@
+Similar to [[Zettel/202202082304 Ethereum as RAID1 for CPUs]], but [[Lockstep multiplayer]]

@@ -1,0 +1,1 @@
+It's better to convert some user input *into a data structure* rather than attempt to validate (or "escape") it.

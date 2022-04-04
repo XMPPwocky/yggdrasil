@@ -1,0 +1,6 @@
+
+Specifically [[Bluetooth Classic]] ... maybe [[Bluetooth Low Energy]] is better, but IDK...
+
+Downgrade attacks to E0 cipher... [[Cyclic redundancy check|CRC]] no MAC... PIN cracking...
+
+Lack of visibility to user about what's going on (not necessarily a protocol issue! arguably an implementation problem!)

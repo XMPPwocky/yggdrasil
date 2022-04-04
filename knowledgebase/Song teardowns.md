@@ -1,0 +1,3 @@
+Doing these has always been super rewarding...
+
+I like doing them with blank MIDI clips and automation lanes mapped to MIDI CCs (not controlling anything)

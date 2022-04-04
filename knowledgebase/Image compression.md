@@ -1,0 +1,3 @@
+Compressing an image, generally a [[Raster image]] 
+
+Generally, different algorithms are used for "illustrations" and photographs - the former including things like [[PNG (file format)]], the classic example of the second being [[JPEG (file format)]]. This split is because illustrations tend to have large areas of flat color and smooth gradients, while photographs are... photographs...

@@ -1,0 +1,1 @@
+Writing too many bytes into a buffer and [[Memory corruption|corrupting memory]].

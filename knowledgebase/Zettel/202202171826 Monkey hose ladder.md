@@ -1,0 +1,1 @@
+got monkeys, bananas on a ladder, hose 'em all down when they go for the bananas. remove some monkeys, add new monkeys, new monkeys go for bananas and the old monkeys yell at them because they don't want to get hosed. repeat, until all old monkeys are gone. now no hosings, but monkeys still yell.

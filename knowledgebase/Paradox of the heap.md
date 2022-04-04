@@ -1,0 +1,3 @@
+You got a heap of sand. You take away a grain. Is it still a heap?
+
+Intuitively, seems related to [[Mathematical induction]]...

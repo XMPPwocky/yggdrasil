@@ -1,0 +1,1 @@
+Automatically-installed [[Software update]]s, esp. [[Over-the-air update|OTAs]], are a double-edged sword - they can get security patches rolled out very quickly, but they also dramatically increase the impact of a [[Supply chain attack]].

@@ -1,0 +1,1 @@
+A lightweight, modern [[Virtual private network|VPN]] protocol.

@@ -1,0 +1,1 @@
+[[Fire]] is a form of [[Positive feedback]]! Some small part burns- that's [[Exothermic reaction|exothermic]], heating up nearby stuff, which then ignites... a [[Chain reaction]].

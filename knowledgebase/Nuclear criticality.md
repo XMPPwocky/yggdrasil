@@ -1,0 +1,1 @@
+I wonder if you can detect this via [[202201212216 Slow decay near criticality]]? Comically risky, but just in theory. e.g. "ping" it with [[Neutron (particle)]]s

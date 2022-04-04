@@ -1,0 +1,1 @@
+Tool for deploying [[NixOS]] machines in a network/cloud.

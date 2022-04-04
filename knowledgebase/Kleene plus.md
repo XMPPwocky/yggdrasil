@@ -1,0 +1,1 @@
+Matches *one or more* repetitions of something. Compared to the [[Kleene star]], which matches *zero or more*.

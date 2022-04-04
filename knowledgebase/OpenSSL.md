@@ -1,0 +1,1 @@
+OpenSSL is an extremely popular implementation of [[TLS (protocol)]] and various [[Cryptography]]-related functions.

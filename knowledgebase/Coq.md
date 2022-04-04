@@ -1,0 +1,1 @@
+Coq is an interactive theorem prover... apparently *not* an [[Automated theorem proving|Automated theorem proving]], "interactive" means something different?

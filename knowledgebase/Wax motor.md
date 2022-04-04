@@ -1,0 +1,1 @@
+A wax motor uses the [[Phase-change]] behavior of a wax as a slow, short, but relatively strong [[Linear actuator]]. Just a heater and some wax in a piston or similar.

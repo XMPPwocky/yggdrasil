@@ -1,0 +1,1 @@
+[[Qubes (operating system)]], combined with [[NixOS]]-based Template/App[[Virtual machine|VM]]s, would be neat. Because [[Declarative configuration]] for individual VMs would do loads to solve the [[Zettel/202202081636 Qubes TemplateVMs tend to build up cruft|cruft buildup]] problem, plus immutability comes naturally.

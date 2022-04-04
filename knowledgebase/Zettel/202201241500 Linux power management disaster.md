@@ -1,0 +1,1 @@
+[[Power management]] on [[Linux]] (at least for [[Laptop]]s) is rather... bad, compared to competing [[Operating system]]s.

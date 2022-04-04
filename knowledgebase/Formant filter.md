@@ -1,0 +1,1 @@
+Basically an [[EQ (audio)]] with very specific peak frequencies, and then those typically get modulated.

@@ -1,0 +1,1 @@
+Uses [[Resonance]] of a system to amplify/attenuate voltage, as in a traditional [[Switching power supply]]

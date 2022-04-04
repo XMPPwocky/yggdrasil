@@ -1,0 +1,1 @@
+A (typically) single-chip [[Synthesizer (music)|synthesizer]], typically used in [[Video game consoles]] or old computers. Can range from really basic (e.g. a monophonic [[Square wave]]) to some very sophisticated ones (e.g. the [[SID (soundchip)]]). [[FM synthesis]] became common later, as a pure-digital way to generate sophisticated [[Timbre]]s.

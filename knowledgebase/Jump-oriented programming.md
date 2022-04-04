@@ -1,0 +1,1 @@
+"JOP". Like [[Return-oriented programming|ROP]], but instead of return instructions, [[Indirect branch|indirect branches]] are used.

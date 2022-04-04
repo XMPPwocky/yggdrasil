@@ -1,0 +1,5 @@
+If [[51% attack|51%]] of [[Proof-of-work mining|miners]] are forced to censor transactions to certain addresses, other miners will still be able to make blocks containing those transactions. So the attackers must also refuse to build on top of [[Block (blockchain)|blocks]] which contain banned transactions.
+
+And this has some interesting [[Positive feedback]] implications- other miners are now strongly incentivized to *participate in the attack* if they know about it, so that the attackers build on top of their blocks (which the attackers do want to do if possible, since it's basically free work extending their chain).
+
+Is it possible that this results in a sort of [[202202171826 Monkey hose ladder|monkey ladder]] situation where eventually the original attack can end but miners are still incentivized to keep censoring transactions? Is that a [[Stable state]]?

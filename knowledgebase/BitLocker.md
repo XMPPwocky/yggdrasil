@@ -1,0 +1,1 @@
+Microsoft's official [[Disk encryption]] product for [[Windows (operating system)]].

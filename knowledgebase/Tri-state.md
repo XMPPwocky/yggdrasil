@@ -1,0 +1,2 @@
+Or "high-[[Impedance|impedance]]".
+

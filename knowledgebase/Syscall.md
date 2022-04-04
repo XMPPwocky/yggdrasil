@@ -1,0 +1,1 @@
+A system call. or "syscall", is the primary way for [[Userspace]] programs to interact with the operating system [[Kernel]]. Essentially all general-purpose [[Instruction set architecture|ISAs]] (at least those which support multiple privilege levels) have some sort of syscall mechanism.

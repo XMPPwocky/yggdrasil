@@ -1,0 +1,1 @@
+An [[Exploit primitive]] that allows an attacker to write arbitrary data at an arbitrary address or offset. Extremely powerful.

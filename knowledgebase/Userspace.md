@@ -1,0 +1,1 @@
+Code running on a system outside of the [[Kernel]], i.e. typically in ring 3 on [[x86 (Architecture)|x86]].

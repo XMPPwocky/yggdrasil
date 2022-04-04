@@ -1,0 +1,5 @@
+Symmetric "signatures" like [[HMAC]]s etc. can be truncated with a reasonably linear decrease in security - e.g. a tag can be truncated to 32 bits and still provide ~2^-32 probability of forgery per message.
+
+But asymmetric signatures (e.g. [[RSA (cryptosystem)]] signatures) can't- existing schemes just require you have the entire signature to validate it, but it's also impossible mathematically. This is because an asymmetric signature can be *validated* by an attacker. If there's a 32-bit asymmetric signature on a message, an attacker who can *validate* signatures can simply brute-force all 4 billion possible signature values until they find a valid one- this would be an *offline* attack.
+
+Only workaround would be preventing an attacker from validating signatures, but at that point why not just use a symmetric scheme?

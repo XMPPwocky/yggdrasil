@@ -1,0 +1,1 @@
+Essentially allows turning chips into large GPIO expanders. A large part of the original motivation for [[JTAG]] - thus the name, "joint test action group" - for testing [[Ball-grid array|BGAs]]!

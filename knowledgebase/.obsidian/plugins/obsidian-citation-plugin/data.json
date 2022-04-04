@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "Reading notes",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\nDOI: {{DOI}}\nurl: {{URL}}\n---\n\n[Open in Zotero]({{zoteroSelectURI}})\n\n# About\nTitle: {{title}}\nAuthors: {{authorString}}\nYear: {{year}}\nDOI: {{DOI}}\nURL: [{{URL}}]({{URL}})\n\n# Notes",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "/home/mimir/Resilio Sync/Obsidian/Zotero Library.bib"
+}

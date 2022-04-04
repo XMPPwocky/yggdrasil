@@ -1,0 +1,1 @@
+[[TCP (protocol)]] seems simple - it's "just" a stream of bytes. But actually, surprisingly complicated in ways that do filter through to higher layers.

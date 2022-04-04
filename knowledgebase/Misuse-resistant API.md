@@ -1,0 +1,1 @@
+Sort of the opposite of a [[Footgun]] - a misuse-resistant API is one where the "right thing" is the natural, obvious, ergonomic thing, and the wrong thing is either impossible (e.g. not exposed) or is c

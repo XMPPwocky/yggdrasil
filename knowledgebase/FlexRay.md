@@ -1,0 +1,3 @@
+FlexRay is a bus that's a bit like [[CAN bus]] - at least in terms of applications - but is nicer in a lot of ways. Unfortunately, it seems to be rare...
+
+Some sort of [[Time-division multiple access]], iirc?

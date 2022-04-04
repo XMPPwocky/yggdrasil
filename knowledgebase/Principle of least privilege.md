@@ -1,0 +1,1 @@
+A (user, role, process... etc) should have only the privileges required to do their tasks and nothing more.

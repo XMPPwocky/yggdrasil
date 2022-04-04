@@ -1,0 +1,1 @@
+The interfaces (logical or literal, e.g. a network/process/library boundary) between components in a system are natural weak points.

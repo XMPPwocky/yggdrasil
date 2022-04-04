@@ -1,0 +1,1 @@
+A setuid [[Executable (computing)|executable]] runs as the owner of the file (typically [[Root user|root]]), instead of as whoever executed the file.

@@ -1,0 +1,1 @@
+Generally, modern FPGAs consist of a bunch of "logic blocks" or "logic elements" connected via a programmable fabric, plus some specialized fixed-function blocks (especially multipliers/MAC, for [[Digital signal processing]]).

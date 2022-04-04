@@ -1,0 +1,3 @@
+a.k.a. "$I^{2}R$" heating, because of the formula for power dissipation ($VI$) when you plug in [[Ohm's law]] for a given current.
+
+The fact that it thus decreases with lower current means that when you have some [[Resistance]] in series with the load, the higher your voltage (across the entire thing) and thus the lower the current for a given *load* power dissipation, the less you burn in the series resistance. That's why e.g. [[Power line|power lines]] are high voltage - way lower resistive losses. 

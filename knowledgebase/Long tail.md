@@ -1,0 +1,1 @@
+The "long tail" of a [[Power law]] graph or similar distribution; colloquially, the "unpopular", "obscure", or "deep"

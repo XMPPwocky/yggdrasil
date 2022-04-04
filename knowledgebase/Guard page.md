@@ -1,0 +1,1 @@
+On modern OSes, often present at address `0x0` to catch [[Null dereference]], especially in the kernel - though [[Supervisor Mode Access Prevention|SMAP]] 

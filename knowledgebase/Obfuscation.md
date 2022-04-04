@@ -1,0 +1,1 @@
+Attempting to protect some secrets or the design of software from [[Reverse engineering]].

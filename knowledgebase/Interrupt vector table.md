@@ -1,0 +1,1 @@
+A table of [[Interrupt (computing)|interrupt]] handlers. Often just a bunch of [[Function pointer]]s, but can have more - often a special dedicated [[Call stack|stack]] is used.

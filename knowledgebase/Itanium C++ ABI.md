@@ -1,0 +1,1 @@
+An [[Application binary interface]] for [[C++]]. While originally developed for [[Itanium (architecture)]], it seems to be the standard for e.g. [[Linux]] on most modern architectures (e.g. [[x86-64 (Architecture)]])

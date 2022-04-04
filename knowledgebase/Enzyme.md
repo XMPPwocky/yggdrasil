@@ -1,0 +1,1 @@
+An enzyme is a ==[[Protein]]== which is a ==[[Catalyst]]==.
