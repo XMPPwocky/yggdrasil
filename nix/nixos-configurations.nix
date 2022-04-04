@@ -7,7 +7,7 @@
       config.nixpkgs.config.nixpkgs-branch = "nixos-unstable";
 		config.home-manager.useGlobalPkgs = true;
 		config.home-manager.useUserPackages = true;
-		config.home-manager.users.mimir = (import mimir-home/home.nix);
+		config.home-manager.users.mimir = (import ../home-manager-cfg/home.nix);
     config.nixpkgs.config.customPackages = customPackages;
     }
 
