@@ -5,6 +5,6 @@
 
   outputs = { self, nixpkgs, flake-utils }:
   {
-    nixosModules = import ./modules.nix;
+    nixosModule = import ./default.nix;
   };
 }
