@@ -5,6 +5,6 @@
 
   outputs = { self, nixpkgs, flake-utils }:
   {
-    nixosModules = { xmppwocky-asgard = import ./modules.nix; };
+    nixosModules = import ./modules.nix;
   };
 }
