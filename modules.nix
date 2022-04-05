@@ -1,30 +1,30 @@
-{ flake-utils }:
+{ flake-utils, ... }:
 {
-  enable-flakes = modules/enable-flakes.nix;
-  nixpkgs-registry = modules/nixpkgs-registry.nix;
+  enable-flakes = import modules/enable-flakes.nix;
+  nixpkgs-registry = import modules/nixpkgs-registry.nix;
 
-  hardening = modules/hardening.nix;
+  hardening = import modules/hardening.nix;
 
-  basic-users = modules/basic-users.nix;
+  basic-users = import modules/basic-users.nix;
 
-  laptop = modules/laptop.nix;
+  laptop = import modules/laptop.nix;
 
-  gui = modules/gui.nix;
-  systemd-resolved = modules/systemd-resolved.nix;
-  audio = modules/audio.nix;
-  alsa-lib-git = modules/alsa-lib-git.nix;
-  tailscale = modules/tailscale.nix;
+  gui = import modules/gui.nix;
+  systemd-resolved = import modules/systemd-resolved.nix;
+  audio = import modules/audio.nix;
+  alsa-lib-git = import modules/alsa-lib-git.nix;
+  tailscale = import modules/tailscale.nix;
 
-  power-utils = modules/power-utils.nix;
+  power-utils = import modules/power-utils.nix;
 
-  ps5-controller-udev = modules/ps5-controller-udev.nix;
-  steam = modules/steam.nix;
+  ps5-controller-udev = import modules/ps5-controller-udev.nix;
+  steam = import modules/steam.nix;
 
-  bluetooth = modules/bluetooth.nix;
+  bluetooth = import modules/bluetooth.nix;
 
-  gnome-keyring = modules/gnome-keyring.nix;
+  gnome-keyring = import modules/gnome-keyring.nix;
 
-  ledger = modules/ledger.nix;
+  ledger = import modules/ledger.nix;
 
-  livestreaming = modules/livestreaming.nix;
+  livestreaming = import modules/livestreaming.nix;
 }
